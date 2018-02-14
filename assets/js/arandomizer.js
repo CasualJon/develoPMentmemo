@@ -2,18 +2,14 @@
 //Used to identify available memos, select randomized memos, and render that
 //content to the front page
 
-var memoCount = 3;
-
 //Get random memo from available content
-var memoNum = getRandom(memoCount);
+var memoNum = getRandom(dmIndx.length);
 
-var selectedMemo = "./assets/js/dm";
-  selectedMemo += memoNum;
-  selectedMemo += ".js";
+var selectedMemo = dmIndx[memoNum].path;
 
 var script = document.createElement('script');
   script.src = selectedMemo;
-  script.async = true;
+  //script.async = true;
 document.head.appendChild(script);
 
 ///////////////////////////////////////
