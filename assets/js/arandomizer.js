@@ -2,8 +2,7 @@
 //Used to identify available memos, select randomized memos, and render that
 //content to the front page
 
-alert("HERE!");
-var memoCount = 1;
+var memoCount = 3;
 
 //Get random memo from available content
 var memoNum = getRandom(memoCount);
@@ -12,16 +11,10 @@ var selectedMemo = "./assets/js/dm";
   selectedMemo += memoNum;
   selectedMemo += ".js";
 
-//var script = document.createElement('script');
-//  script.src = selectedMemo;
-
-var script = document.getElementsByName('todo');
-var att = document.createAttribute("src");
-  att.value = selectedMemo;
-script.setAttributeNode(att);
-
-//Update front page element with content from memo
-// subPage.innerHTML = getMemo();
+var script = document.createElement('script');
+  script.src = selectedMemo;
+  script.async = true;
+document.head.appendChild(script);
 
 ///////////////////////////////////////
 // Random Number Generation
