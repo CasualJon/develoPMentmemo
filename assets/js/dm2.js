@@ -8,7 +8,7 @@ memoString += "<p><small><font color=\"black\">Project constraints restrict the 
 memoString += "You’ll encounter constraints across a wide distribution of needs: time, budget, scope, quality, schedule, resources, technology, legal, etc.<br />";
 memoString += "But, three of these are special, and these three live in a love triangle...</font></small></p><br />";
 
-memoString += "<p><b><font color=\"purple\">Triple constraint</font></b> <i>is a graphic aid to represent the interrelationship between the key attributes of Time, Cost, and Scope in a project and their unique impact on the quality of your finished product.</i></p>";
+memoString += "<p><b><font color=\"purple\">Triple Constraint</font></b> <i>is a graphic aid to represent the interrelationship between the key attributes of Time, Cost, and Scope in a project and their unique impact on the quality of your finished product.</i></p>";
 
 memoString += "<img src=\"./assets/img/memoImages/triple_constraint.png\">";
 
