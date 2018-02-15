@@ -269,6 +269,17 @@ article .article-info a {
 }
 
 
+#preamble {
+	font-size: 0.85em;
+	color: #000;
+}
+
+#vocab {
+	font-weight: bold;
+	color: #800080;
+}
+
+
 /** footer **/
 footer {
 	padding: 20px 0px;

@@ -4,12 +4,12 @@
 
 var memoString = "";
 
-memoString += "<p><small><font color=\"black\">What constitutes a project is something we’ve covered before, and a project implementing any Epic application is a pretty big ordeal.<br />";
-memoString += "For all the effort and time devoted to projects we tackle, for the scale and scope of projects we run, it’s simple enough to forget that these projects are but a piece of the larger whole.</font></small></p><br />";
+memoString += "<p><span id=\"preamble\">What constitutes a project is something we’ve covered before, and a project implementing any Epic application is a pretty big ordeal.<br />";
+memoString += "For all the effort and time devoted to projects we tackle, for the scale and scope of projects we run, it’s simple enough to forget that these projects are but a piece of the larger whole.</span></p><br />";
 
-memoString += "<p><b><font color=\"purple\">Programs</font></b><i> are groups of related projects, subprograms, and program activities managed in a coordinated way to obtain benefits not available from managing them individually.</i></p>";
+memoString += "<p><span id=\"vocab\">Programs</span><i> are groups of related projects, subprograms, and program activities managed in a coordinated way to obtain benefits not available from managing them individually.</i></p>";
 
-memoString += "<p><b><font color=\"purple\">Portfolios</font></b><i> are projects, programs, subportfolios, and operations managed as a group to achieve strategic objectives.</i></p>";
+memoString += "<p><span id=\"vocab\">Portfolios</span><i> are projects, programs, subportfolios, and operations managed as a group to achieve strategic objectives.</i></p>";
 
 memoString += "<p>Within an integrated install, it’s easy to see a Program in action: individual component projects are sequenced, paced, and leveled to produce a result where the benefit derived is greater than the sum of benefits those component projects could deliver independently. ";
 memoString += "Kinda like a symphony… Sure, strings and brass standing alone sound just fine, but when you organize and time them in just the right way, you get something better than the two apart.</p>";

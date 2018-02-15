@@ -4,10 +4,10 @@
 
 var memoString = "";
 
-memoString += "<p><small><font color=\"black\">Citius, Altius, Fortius. Faster, Higher, Stronger... The Olympic motto.<br />";
-memoString += "Melius, Citius, Vilius. Better, Faster, Cheaper… The CIO motto.</font></small></p><br />";
+memoString += "<p><span id=\"preamble\">Citius, Altius, Fortius. Faster, Higher, Stronger... The Olympic motto.<br />";
+memoString += "Melius, Citius, Vilius. Better, Faster, Cheaper… The CIO motto.</span></p><br />";
 
-memoString += "<p><b><font color=\"purple\">Cost of Quality (COQ)</font></b><i> is a method of determining the costs incurred to ensure quality. Prevention and appraisal costs (cost of conformance) ";
+memoString += "<p><span id=\"vocab\">Cost of Quality (COQ)</span><i> is a method of determining the costs incurred to ensure quality. Prevention and appraisal costs (cost of conformance) ";
 memoString += "include costs for quality planning, quality control (QC), and quality assurance to ensure compliance requirements (i.e., training, QC systems, etc.). Failure costs (cost of nonconformance) include costs to rework products, components, or processes that are non-compliant, costs of warranty work and waste, and loss of reputation.</i></p>";
 
 memoString += "<p>Cost of Poor Quality - - that’s the term I prefer to Cost of Nonconformance and Failure Cost. Plus it sounds better.</p>";

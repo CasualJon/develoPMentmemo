@@ -4,6 +4,7 @@ const group = {
   ENVIRONMENT: "Environment",
   QUALITY: "Quality",
   COMMUNICATION: "Communication",
+  TT: "Tools & Techniques"
 }
 
 var dmIndx = [
@@ -18,7 +19,7 @@ var dmIndx = [
     num: 1,
     title: "Progressive Elaboration",
     category: group.PM_BASICS,
-    keywords: "PROGRESSIVE ELABORATION UNCERTAIN",
+    keywords: "PROGRESSIVE ELABORATION UNCERTAINTY",
     path: "./assets/js/dm1.js",
   },
   {
@@ -32,7 +33,7 @@ var dmIndx = [
     num: 3,
     title: "Organizational Structures",
     category: group.ENVIRONMENT,
-    keywords: "ORG STRUCTURE ORGANIZATIONAL STRUCTURE FUNCTIONAL PROJECTIZED MATRIX WEAK MATRIX BALANCED MATRIX STRONG MATRIX",
+    keywords: "ORGANIZATIONAL STRUCTURE FUNCTIONAL PROJECTIZED MATRIX WEAK BALANCED STRONG",
     path: "./assets/js/dm3.js",
   },
   {
@@ -46,21 +47,21 @@ var dmIndx = [
     num: 5,
     title: "PM Knowledge Areas",
     category: group.PM_BASICS,
-    keywords: "KNOWLEDGE AREAS PMP PMBOK PROCESS GROUPS",
+    keywords: "KNOWLEDGE AREAS PMBOK PROCESS GROUPS",
     path: "./assets/js/dm5.js",
   },
   {
     num: 6,
     title: "Expert Judgment",
     category: group.PM_BASICS,
-    keywords: "EXPERT JUDGMENT TOOLS AND TECHNIQUES TOOLS & TECHNIQUES PMBOK",
+    keywords: "EXPERT JUDGMENT TOOLS TECHNIQUES PMBOK",
     path: "./assets/js/dm6.js",
   },
   {
     num: 7,
     title: "Change Management",
     category: group.PM_BASICS,
-    keywords: "CHANGE MANAGEMENT CHANGE CONTROL PMBOK",
+    keywords: "CHANGE CONTROL PMBOK",
     path: "./assets/js/dm7.js",
   },
   {
@@ -81,20 +82,20 @@ var dmIndx = [
     num: 10,
     title: "Manage Communications",
     category: group.COMMUNICATION,
-    keywords: "MANAGE COMMUNICATIONS MANAGEMENT PLAN FRED BROOKS GROUP INTERCOMMUNICATION FORMULA MYITHICAL MAN MONTH",
+    keywords: "MANAGE COMMUNICATIONS FRED BROOKS GROUP INTERCOMMUNICATION FORMULA MYITHICAL MAN MONTH",
     path: "./assets/js/dm10.js",
   },
   {
     num: 11,
     title: "Phase Gates",
     category: group.PM_BASICS,
-    keywords: "PHASE GATES EXPLOIT POSITIVE RISK SCRUM AGILE REVIEWS AND RETROSPECTIVES STORY OF ENOS NASA",
+    keywords: "PHASE GATES EXPLOIT POSITIVE RISK SCRUM AGILE REVIEWS RETROSPECTIVES ENOS NASA",
     path: "./assets/js/dm11.js",
   },
   {
     num: 12,
     title: "RACI Charts",
-    category: group.COMMUNICATION,
+    category: group.TT,
     keywords: "RACI CHART RESPONSIBLE ACCOUNTABLE CONSULT INFORM COMMUNICATION TOOLS",
     path: "./assets/js/dm12.js",
   },
@@ -102,14 +103,14 @@ var dmIndx = [
     num: 13,
     title: "Cost of Quality",
     category: group.QUALITY,
-    keywords: "COST OF QUALITY COST OF POOR QUALITY COST OF FAILURE COST OF NONCONFORMANCE DILBERT",
+    keywords: "COST QUALITY POOR FAILURE NONCONFORMANCE DILBERT",
     path: "./assets/js/dm13.js",
   },
   {
     num: 14,
     title: "Pareto Principle",
     category: group.PM_BASICS,
-    keywords: "PARETO DIAGRAM 80/20 80-20 80 20 HISTOGRAM PARETO CHART PROJECT QUALITY MANAGEMENT",
+    keywords: "PARETO DIAGRAM CHART 80 20 HISTOGRAM QUALITY",
     path: "./assets/js/dm14.js",
   },
   {
@@ -125,5 +126,19 @@ var dmIndx = [
     category: group.PM_BASICS,
     keywords: "PROCESS GROUPS PMBOK INITIATING PLANNING MONITORING CONTROLLING CLOSING",
     path: "./assets/js/dm16.js",
+  },
+  {
+    num: 17,
+    title: "Probability & Impact Matrix",
+    category: group.TT,
+    keywords: "PROBABILITY IMPACT MATRIX RISK PMBOK TOOLS",
+    path: "./assets/js/dm17.js",
+  },
+  {
+    num: 18,
+    title: "Three Point Estimate",
+    category: group.TT,
+    keywords: "THREE POINT ESTIMATE 3 TOOLS TECHNIQUES PMBOK PERT",
+    path: "./assets/js/dm18.js",
   },
 ];

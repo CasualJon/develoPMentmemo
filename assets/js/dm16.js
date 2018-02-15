@@ -4,7 +4,7 @@
 
 var memoString = "";
 
-memoString += "<p><small><font color=\"black\">A process is a series of interrelated actions taken to achieve a particular end... process helps break down a vision into achievable goals, providing a place to start and helping to keep the project moving. 5 Process Groups structure the processes within project management so that, in aggregate, these groups (and their component processes) make up the <i>Project Management Process</i>.</font></small></p><br />";
+memoString += "<p><span id=\"preamble\">A process is a series of interrelated actions taken to achieve a particular end... process helps break down a vision into achievable goals, providing a place to start and helping to keep the project moving. 5 Process Groups structure the processes within project management so that, in aggregate, these groups (and their component processes) make up the <i>Project Management Process</i>.</span></p><br />";
 
 memoString += "<p><i>Inpatient devs use EMC&#178;.</i><br />";
 memoString += "That’s an easy way to remember the 5 project management process groups: IPEMCC...<br />";

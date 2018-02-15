@@ -4,10 +4,10 @@
 
 var memoString = "";
 
-memoString += "<p><small><font color=\"black\">Over the course of a project, there will be many things for which you won’t have an immediate answer.<br />";
-memoString += "Many resources exist to help you seek and find the information required, but sometimes the best way to get a quick and accurate answer – one taking into account all of the variables your scenario presents – is to talk to someone.</font></small></p><br />";
+memoString += "<p><span id=\"preamble\">Over the course of a project, there will be many things for which you won’t have an immediate answer.<br />";
+memoString += "Many resources exist to help you seek and find the information required, but sometimes the best way to get a quick and accurate answer – one taking into account all of the variables your scenario presents – is to talk to someone.</span></p><br />";
 
-memoString += "<p><b><font color=\"purple\">Expert Judgment</font></b><i> is judgment provided based upon expertise in an application area, knowledge area, discipline, industry, etc., appropriate for the activity being performed. Such expertise may be provided by any group or person with specialized education, knowledge, skill, experience, or training.</i></p>";
+memoString += "<p><span id=\"vocab\">Expert Judgment</span><i> is judgment provided based upon expertise in an application area, knowledge area, discipline, industry, etc., appropriate for the activity being performed. Such expertise may be provided by any group or person with specialized education, knowledge, skill, experience, or training.</i></p>";
 
 memoString += "<p>In project management, the term <i>Tools and Techniques</i> is exactly what it sounds like... Tools and Techniques themselves are the magic you work to take a set of inputs and transform them into outputs and deliverables.<br />";
 memoString += "Of the 47 processes identified in the PMBOK Guide, 28 include Expert Judgment as one of the Tools and Techniques applied.</p>"

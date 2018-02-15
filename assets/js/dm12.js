@@ -4,9 +4,9 @@
 
 var memoString = "";
 
-memoString += "<p><small><font color=\"black\">Accountability is a word I hear a lot. Its use has a certain oomph, power, and sophistication. <i>Accountability</i> feels nice to say and everyone knows what you need should you ask that <i>\"operational leadership enforce broader accountability in process compliance....\"</i></font></small></p><br />";
+memoString += "<p><span id=\"preamble\">Accountability is a word I hear a lot. Its use has a certain oomph, power, and sophistication. <i>Accountability</i> feels nice to say and everyone knows what you need should you ask that <i>\"operational leadership enforce broader accountability in process compliance....\"</i></span></p><br />";
 
-memoString += "<p>A <b><font color=\"purple\">RACI Chart</font></b><i> is a common type of responsibility assignment matrix that uses responsible, accountable, consult, and inform statuses to define involvement of stakeholders in project activities.</i></p>";
+memoString += "<p>A <span id=\"vocab\">RACI Chart</span><i> is a common type of responsibility assignment matrix that uses responsible, accountable, consult, and inform statuses to define involvement of stakeholders in project activities.</i></p>";
 
 memoString += "<p>Responsibility assignment matrices (such as RACI charts) are a simple way to clearly identify the depth of participation of project stakeholders in the completion of project activities. For unique tasks and deliverables within a RACI chart, we identify individuals by one of four roles:</p>";
 
