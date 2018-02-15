@@ -4,7 +4,8 @@
 
 var memoString = "";
 
-memoString += "<p><big>This is more work.  I thought it would be easier.</big></p>";
+memoString += "<p><small><b><font color=\"black\">This is more work.  I thought it would be easier.</font></b></small></p>";
+
 memoString += "<p>True expertise is earned the difficult way: <i>knowledge acquired and skill cultivated through efforts to learn and assimilate new information over long experience.</i><br /><br />";
 
 memoString += "But being labeled an expert is sometimes thrust upon you.  Occasionally, that’s just the way work works.<br />";

@@ -4,9 +4,9 @@
 
 var memoString = "";
 
-memoString += "<p><big>HeaderHere</big></p>";
+memoString += "<p><small><b><font color=\"black\">HeaderHere</font></b></small></p>";
 
-memoString += "<p><b>Term</b> <i>.</i></p>";
+memoString += "<p><b><font color=\"purple\">Term</font></b> <i>.</i></p>";
 
 memoString += "<p>Details.</p>";
 
