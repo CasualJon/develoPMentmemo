@@ -12,6 +12,9 @@ var script = document.createElement('script');
   //script.async = true;
 document.head.appendChild(script);
 
+//Debug code
+alert("Memo Index: " + selectedMemo);
+
 ///////////////////////////////////////
 // Random Number Generation
 ///////////////////////////////////////
