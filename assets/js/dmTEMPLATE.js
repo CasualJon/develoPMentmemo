@@ -4,7 +4,7 @@
 
 var memoString = "";
 
-memoString += "<p><small><b><font color=\"black\">HeaderHere</font></b></small></p>";
+memoString += "<p><small><font color=\"black\">HeaderHere</font></small></p><br />";
 
 memoString += "<p><b><font color=\"purple\">Term</font></b><i> .</i></p>";
 

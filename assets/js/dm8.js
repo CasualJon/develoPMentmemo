@@ -4,8 +4,8 @@
 
 var memoString = "";
 
-memoString += "<p><small><b><font color=\"black\">Projects can be similar, but no two are ever the same - - even when you specialize in implementing a specific software package.<br />";
-memoString += "Different team, different scope, different priorities, different objectives… It’s both common sense and good practice that we put thoughtful effort into planning a project’s structure around it’s unique nature.</font></b></small></p>";
+memoString += "<p><small><font color=\"black\">Projects can be similar, but no two are ever the same - - even when you specialize in implementing a specific software package.<br />";
+memoString += "Different team, different scope, different priorities, different objectives… It’s both common sense and good practice that we put thoughtful effort into planning a project’s structure around it’s unique nature.</font></small></p><br />";
 
 memoString += "<p><b><font color=\"purple\">Tailoring</font></b><i> is the act of carefully selecting processes and related inputs and outputs contained within the PMBOK Guide to determine a subset of specific processes that will be included within a project’s overall management approach.</i></p>";
 

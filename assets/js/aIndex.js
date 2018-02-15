@@ -75,4 +75,18 @@ var dmIndx = [
     keywords: "PROGRAMS PORTFOLIOS PMBOK",
     path: "./assets/js/dm9.js",
   },
+  {
+    num: 10,
+    title: "Manage Communications",
+    category: group.PM_BASICS,
+    keywords: "MANAGE COMMUNICATIONS MANAGEMENT PLAN FRED BROOKS GROUP INTERCOMMUNICATION FORMULA MYITHICAL MAN MONTH",
+    path: "./assets/js/dm10.js",
+  },
+  {
+    num: 11,
+    title: "Phase Gates",
+    category: group.PM_BASICS,
+    keywords: "PHASE GATES EXPLOIT POSITIVE RISK SCRUM AGILE REVIEWS AND RETROSPECTIVES STORY OF ENOS NASA",
+    path: "./assets/js/dm11.js",
+  },
 ];

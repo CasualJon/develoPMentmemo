@@ -4,9 +4,9 @@
 
 var memoString = "";
 
-memoString += "<p><small><b><font color=\"black\">Organizational and planning skills are closely related.<br />";
+memoString += "<p><small><font color=\"black\">Organizational and planning skills are closely related.<br />";
 memoString += "It’s unsurprising, then, that the documentation codifying a discipline focused on planning organizes its own building blocks within a crossmatrix. In fact, it’s so expected that Excel is probably launching itself on your laptop right now, completely unbidden, because… well... project management.<br />";
-memoString += "The PMBOK Guide (5th ed.) organizes the 47 processes of project management into 5 Process Groups, then stratifies the grouped processes across 10 Knowledge Areas.</font></b></small></p>";
+memoString += "The PMBOK Guide (5th ed.) organizes the 47 processes of project management into 5 Process Groups, then stratifies the grouped processes across 10 Knowledge Areas.</font></small></p><br />";
 
 memoString += "<p>A <b><font color=\"purple\">Knowledge Area</font></b><i> represents a complete set of concepts, terms, and activities that make up a professional field, project management field, or area of specialization.</i></p>";
 

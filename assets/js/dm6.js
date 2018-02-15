@@ -4,8 +4,8 @@
 
 var memoString = "";
 
-memoString += "<p><small><b><font color=\"black\">Over the course of a project, there will be many things for which you won’t have an immediate answer.<br />";
-memoString += "Many resources exist to help you seek and find the information required, but sometimes the best way to get a quick and accurate answer – one taking into account all of the variables your scenario presents – is to talk to someone.</font></b></small></p>";
+memoString += "<p><small><font color=\"black\">Over the course of a project, there will be many things for which you won’t have an immediate answer.<br />";
+memoString += "Many resources exist to help you seek and find the information required, but sometimes the best way to get a quick and accurate answer – one taking into account all of the variables your scenario presents – is to talk to someone.</font></small></p><br />";
 
 memoString += "<p><b><font color=\"purple\">Expert Judgment</font></b><i> is judgment provided based upon expertise in an application area, knowledge area, discipline, industry, etc., appropriate for the activity being performed. Such expertise may be provided by any group or person with specialized education, knowledge, skill, experience, or training.</i></p>";
 

@@ -4,9 +4,9 @@
 
 var memoString = "";
 
-memoString += "<p><small><b><font color=\"black\">Before you open a door, it’s hard to see what’s on the other side. You can call in experts with fancy tools to get a blurred image of what’s behind the door, ";
+memoString += "<p><small><font color=\"black\">Before you open a door, it’s hard to see what’s on the other side. You can call in experts with fancy tools to get a blurred image of what’s behind the door, ";
 memoString += "but that’s still an estimate and you don’t really know with a certainty. For you philosophers, yes… empiricism vs. rationalism.<br />";
-memoString += "But, here’s a cool secret: no one trusts you if you claim to know everything.</font></b></small></p>";
+memoString += "But, here’s a cool secret: no one trusts you if you claim to know everything.</font></small></p><br />";
 
 memoString += "<p><b><font color=\"purple\">Progressive elaboration</font></b> <i>is the iterative process of increasing the level of detail in a project management plan as greater amounts of information and more accurate estimates become available.</i></p>";
 

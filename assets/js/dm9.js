@@ -4,8 +4,8 @@
 
 var memoString = "";
 
-memoString += "<p><small><b><font color=\"black\">What constitutes a project is something we’ve covered before, and a project implementing any Epic application is a pretty big ordeal.<br />";
-memoString += "For all the effort and time devoted to projects we tackle, for the scale and scope of projects we run, it’s simple enough to forget that these projects are but a piece of the larger whole.</font></b></small></p>";
+memoString += "<p><small><font color=\"black\">What constitutes a project is something we’ve covered before, and a project implementing any Epic application is a pretty big ordeal.<br />";
+memoString += "For all the effort and time devoted to projects we tackle, for the scale and scope of projects we run, it’s simple enough to forget that these projects are but a piece of the larger whole.</font></small></p><br />";
 
 memoString += "<p><b><font color=\"purple\">Programs</font></b><i> are groups of related projects, subprograms, and program activities managed in a coordinated way to obtain benefits not available from managing them individually.</i></p>";
 

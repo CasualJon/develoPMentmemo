@@ -4,8 +4,8 @@
 
 var memoString = "";
 
-memoString += "<p><small><b><font color=\"black\">With the outcome of a project being the production of a unique product, service, or result - - change is inescapable.<br />";
-memoString += "Change itself is intensely personal, and once confronted by change, the individual process to internalize its meaning can result in a variety of reactions: sabotage, adaptation, assimilation…. These personal reactions start as ripples, but when set across an entire company, they can build into waves.</font></b></small></p>";
+memoString += "<p><small><font color=\"black\">With the outcome of a project being the production of a unique product, service, or result - - change is inescapable.<br />";
+memoString += "Change itself is intensely personal, and once confronted by change, the individual process to internalize its meaning can result in a variety of reactions: sabotage, adaptation, assimilation…. These personal reactions start as ripples, but when set across an entire company, they can build into waves.</font></small></p><br />";
 
 memoString += "<p><b><font color=\"purple\">Change Management</font></b><i> is an approach to transitioning individuals, teams, and organizations to a desired future state.</i></p>";
 

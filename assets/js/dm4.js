@@ -4,9 +4,9 @@
 
 var memoString = "";
 
-memoString += "<p><small><b><font color=\"black\">With daily interactions, I put effort into avoiding overt use of industry jargon, but sometimes pulling from a standard lexicon makes a message easier to understand.<br/>";
+memoString += "<p><small><font color=\"black\">With daily interactions, I put effort into avoiding overt use of industry jargon, but sometimes pulling from a standard lexicon makes a message easier to understand.<br/>";
 memoString += "<img src=\"./assets/img/memoImages/dogbertZombie.jpg\"><br />";
-memoString += "Well, often, anyway... As long as everyone understands the convention :)</font></b></small></p>";
+memoString += "Well, often, anyway... As long as everyone understands the convention :)</font></small></p><br />";
 
 memoString += "<p>A <b><font color=\"purple\">Work Breakdown Structure (WBS)</font></b><i> is hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables.</i></p>";
 

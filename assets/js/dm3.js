@@ -4,8 +4,8 @@
 
 var memoString = "";
 
-memoString += "<p><small><b><font color=\"black\"><i>Projectizing a matrixed functional organization</i> is a phrase that just might win you buzzword bingo on a conference call.<br />";
-memoString += "This is assuming, of course, that you remain conscious after the whopper of a facepalm you’d give yourself upon hearing it…</font></b></small></p>";
+memoString += "<p><small><font color=\"black\"><i>Projectizing a matrixed functional organization</i> is a phrase that just might win you buzzword bingo on a conference call.<br />";
+memoString += "This is assuming, of course, that you remain conscious after the whopper of a facepalm you’d give yourself upon hearing it…</font></small></p><br />";
 
 memoString += "<p><i>Most organizational structure arrangements are within one of three categories: functional, projectized, or matrix.</i></p>";
 
