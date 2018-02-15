@@ -13,7 +13,7 @@ var script = document.createElement('script');
 document.head.appendChild(script);
 
 //Debug code
-console.log("Selected Memo Index: " memoNum + " | Path: "+ selectedMemo);
+console.log("Selected Memo Index: " + memoNum + " | Path: " + selectedMemo);
 
 ///////////////////////////////////////
 // Random Number Generation
