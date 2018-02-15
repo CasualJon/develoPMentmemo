@@ -2,6 +2,8 @@ const group = {
   PSYCHOLOGY: "Psychology",
   PM_BASICS: "Project Management Basics",
   ENVIRONMENT: "Environment",
+  QUALITY: "Quality",
+  COMMUNICATION: "Communication",
 }
 
 var dmIndx = [
@@ -78,7 +80,7 @@ var dmIndx = [
   {
     num: 10,
     title: "Manage Communications",
-    category: group.PM_BASICS,
+    category: group.COMMUNICATION,
     keywords: "MANAGE COMMUNICATIONS MANAGEMENT PLAN FRED BROOKS GROUP INTERCOMMUNICATION FORMULA MYITHICAL MAN MONTH",
     path: "./assets/js/dm10.js",
   },
@@ -92,14 +94,14 @@ var dmIndx = [
   {
     num: 12,
     title: "RACI Charts",
-    category: group.PM_BASICS,
+    category: group.COMMUNICATION,
     keywords: "RACI CHART RESPONSIBLE ACCOUNTABLE CONSULT INFORM COMMUNICATION TOOLS",
     path: "./assets/js/dm12.js",
   },
   {
     num: 13,
     title: "Cost of Quality",
-    category: group.PM_BASICS,
+    category: group.QUALITY,
     keywords: "COST OF QUALITY COST OF POOR QUALITY COST OF FAILURE COST OF NONCONFORMANCE DILBERT",
     path: "./assets/js/dm13.js",
   },
@@ -109,5 +111,19 @@ var dmIndx = [
     category: group.PM_BASICS,
     keywords: "PARETO DIAGRAM 80/20 80-20 80 20 HISTOGRAM PARETO CHART PROJECT QUALITY MANAGEMENT",
     path: "./assets/js/dm14.js",
+  },
+  {
+    num: 15,
+    title: "Stakeholders",
+    category: group.PM_BASICS,
+    keywords: "STAKEHOLDERS PMBOK",
+    path: "./assets/js/dm15.js",
+  },
+  {
+    num: 16,
+    title: "Process Groups",
+    category: group.PM_BASICS,
+    keywords: "PROCESS GROUPS PMBOK INITIATING PLANNING MONITORING CONTROLLING CLOSING",
+    path: "./assets/js/dm16.js",
   },
 ];
