@@ -89,4 +89,25 @@ var dmIndx = [
     keywords: "PHASE GATES EXPLOIT POSITIVE RISK SCRUM AGILE REVIEWS AND RETROSPECTIVES STORY OF ENOS NASA",
     path: "./assets/js/dm11.js",
   },
+  {
+    num: 12,
+    title: "RACI Charts",
+    category: group.PM_BASICS,
+    keywords: "RACI CHART RESPONSIBLE ACCOUNTABLE CONSULT INFORM COMMUNICATION TOOLS",
+    path: "./assets/js/dm12.js",
+  },
+  {
+    num: 13,
+    title: "Cost of Quality",
+    category: group.PM_BASICS,
+    keywords: "COST OF QUALITY COST OF POOR QUALITY COST OF FAILURE COST OF NONCONFORMANCE DILBERT",
+    path: "./assets/js/dm13.js",
+  },
+  {
+    num: 14,
+    title: "Pareto Principle",
+    category: group.PM_BASICS,
+    keywords: "PARETO DIAGRAM 80/20 80-20 80 20 HISTOGRAM PARETO CHART PROJECT QUALITY MANAGEMENT",
+    path: "./assets/js/dm14.js",
+  },
 ];
