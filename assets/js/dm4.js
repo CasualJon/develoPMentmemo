@@ -18,7 +18,7 @@ memoString += "<p>In <i>small</i> projects, that might be enough, but we continu
 memoString += "<p>To get a horse you must inform your squire who will head to the stable. Your squire needs to feed, water, brush, and saddle the horse before bringing it to the castle gate for a big send-off celebration.<br />";
 memoString += "Performing this decomposition helps define all the minutia as well as uncover specifics you may not yet have thought about. Also, a WBS can enable project managers to build a bottom-up estimate of the time needed to complete some or all of the project from estimates you can assign to the individual work packages.</p>";
 
-memoString += "<img src=\"./assets/img/memoImages/dragonWBS.png\" width=\"600\"><br /><br />";
+memoString += "<img src=\"./assets/img/memoImages/dragonWBS.png\" width=\"500\"><br /><br />";
 
 memoString += "<p>Having this information helps you define the full scope of work for the project, and provides an input to scheduling activities (where we can address things like <i>Training</i> should be sequenced before <i>Find Dragon</i>).</p>";
 
