@@ -5,6 +5,7 @@ const group = {
   QUALITY: "Quality",
   COMMUNICATION: "Communication",
   TT: "Tools & Techniques"
+  MEETINGS: "Meetings",
 }
 
 var dmIndx = [
@@ -138,7 +139,35 @@ var dmIndx = [
     num: 18,
     title: "Three Point Estimate",
     category: group.TT,
-    keywords: "THREE POINT ESTIMATE 3 TOOLS TECHNIQUES PMBOK PERT",
+    keywords: "THREE 3 POINT ESTIMATE TOOLS TECHNIQUES PMBOK PERT",
     path: "./assets/js/dm18.js",
+  },
+  {
+    num: 19,
+    title: "Critical Path",
+    category: group.PM_BASICS,
+    keywords: "CRITICAL PATH METHOD FLOAT SLACK TIMELINE SEQUENCE SCHEDULE TECHNIQUES",
+    path: "./assets/js/dm19.js",
+  },
+  {
+    num: 20,
+    title: "Artifact/Product/Deliverable",
+    category: group.PM_BASICS,
+    keywords: "ARTIFACT PRODUCT DELIVERABLE",
+    path: "./assets/js/dm20.js",
+  },
+  {
+    num: 21,
+    title: "Parkinson's Law: Work Expands",
+    category: group.MEETINGS,
+    keywords: "MEETINGS PARKINSON'S LAW TOOLS TECHNIQUES PMBOK WORK EXPANDS WATER",
+    path: "./assets/js/dm21.js",
+  },
+  {
+    num: 22,
+    title: "Parkinson's Law of Triviality",
+    category: group.MEETINGS,
+    keywords: "MEETINGS PARKINSON'S LAW TRIVIALITY BIKESHEDDING NUCLEAR POWER PLANT",
+    path: "./assets/js/dm22.js",
   },
 ];

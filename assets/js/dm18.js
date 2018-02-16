@@ -41,6 +41,7 @@ memoString += "<ul><li>You can assume with ~68% confidence that the actual time 
 memoString += "<li>Two Standard Deviations will project a window of 95% confidence (12-20 hours)</li>";
 memoString += "<li>Three Standard Deviations will bring you to 99.7% confidence (10-22 hours)</li></ul></p>";
 
+
 //Get element from front page where memo should be placed
 var subPage = document.getElementById('currentMemo');
 subPage.innerHTML = memoString;
