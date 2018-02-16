@@ -4,9 +4,9 @@ const group = {
   ENVIRONMENT: "Environment",
   QUALITY: "Quality",
   COMMUNICATION: "Communication",
-  TT: "Tools & Techniques"
+  TT: "Tools & Techniques",
   MEETINGS: "Meetings",
-}
+};
 
 var dmIndx = [
   {

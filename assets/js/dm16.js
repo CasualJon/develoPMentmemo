@@ -13,7 +13,7 @@ memoString += "Initiation, Planning, Executing, Monitoring and Controlling, Clos
 memoString += "<p>The process groups are not one-off aspects of a project, but overlapping and interacting iterative elements.</p>";
 
 memoString += "<p>Throughout each phase, you will perform actions belonging to each of the process groups in some part. Illustrated by <u>A Guide to the Project Management Body of Knowledge</u> (PMBOK), outputs from processes from a group can represent inputs to another and will be performed over, and over again until the work is done, until the desired product, service, or result is delivered.</p>";
-memoString += "<img src=\"./assets/img/memoImages/processGroups.png\">";
+memoString += "<img src=\"./assets/img/memoImages/processGroups.png\" width=\"500\">";
 
 
 //Get element from front page where memo should be placed
