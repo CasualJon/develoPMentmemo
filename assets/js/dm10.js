@@ -6,7 +6,7 @@ var memoString = "";
 
 memoString += "<p><span id=\"vocab\">Manage Communications</span><i> is the process of creating, collecting, distributing, storing, retrieving, and the ultimate disposition of project information in accordance with the communications management plan.</i></p>";
 
-memoString += "<p><span id=\"vocab\">Communications Management Plan</span><i> is a component of the project, program, or portfolio management plan that describes how, when, and by whom information about the project will be administered and delivered.</i></p>";
+memoString += "<p>A <span id=\"vocab\">Communications Management Plan</span><i> is a component of the project, program, or portfolio management plan that describes how, when, and by whom information about the project will be administered and delivered.</i></p>";
 
 memoString += "<p>Fred Brooks is sharp... the guy built supercomputers for the NSA, sits atop more awards than dragons do gold (including an award from Cambridge named with a phrase he himself coined – “computer architecture”), and enabled you to use lowercase letters in email by making the decision that a byte should be 8 bits rather than 6.</p>";
 

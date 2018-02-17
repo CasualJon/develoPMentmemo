@@ -20,8 +20,8 @@ memoString += "Essentially, our social norms grant experts some level to entitle
 memoString += "<small><i>\"Remember that knowledge of the right kind leads to humility.  The fully ripened ear of wheat, bends downward.  It is the little blade, that holds itself up so pertly.  It is the shallow brook that makes the loudest babbling among the pebbles.\"</i><br />";
 memoString += "<small> L. H. Sigourney. \“Knowledge,\” <u>The Boy’s Book</u>, p.16. 1850 (<a href=\"https://archive.org/stream/boysbook00sigo#page/16/mode/2up\" target=\"_blank\">https://archive.org/stream/boysbook00sigo#page/16/mode/2up</a>)</small></small></p>";
 
-memoString += "<p><small>Aristotle: The more you know, the more you know you don’t know.<br />";
-memoString += "Einstein: The more I learn, the more I realize how much I don’t know.</small></p>";
+memoString += "<p><small>Aristotle: <i>\"The more you know, the more you know you don’t know.\"</i><br />";
+memoString += "Einstein: <i>\"The more I learn, the more I realize how much I don’t know.\"</i></small></p>";
 
 
 //Get element from front page where memo should be placed

@@ -6,6 +6,7 @@ const group = {
   COMMUNICATION: "Communication",
   TT: "Tools & Techniques",
   MEETINGS: "Meetings",
+  TIME: "Time & Schedule"
 };
 
 var dmIndx = [
@@ -145,7 +146,7 @@ var dmIndx = [
   {
     num: 19,
     title: "Critical Path",
-    category: group.PM_BASICS,
+    category: group.TIME,
     keywords: "CRITICAL PATH METHOD FLOAT SLACK TIMELINE SEQUENCE SCHEDULE TECHNIQUES",
     path: "./assets/js/dm19.js",
   },
@@ -169,5 +170,19 @@ var dmIndx = [
     category: group.MEETINGS,
     keywords: "MEETINGS PARKINSON'S LAW TRIVIALITY BIKESHEDDING NUCLEAR POWER PLANT",
     path: "./assets/js/dm22.js",
+  },
+  {
+    num: 23,
+    title: "Little's Law",
+    category: group.TIME,
+    keywords: "LITTLE'S LAW TIME SCHEUDLE PIPELINE",
+    path: "./assets/js/dm23.js",
+  },
+  {
+    num: 24,
+    title: "Deadlines",
+    category: group.TIME,
+    keywords: "DEADLINES STRESS",
+    path: "./assets/js/dm24.js",
   },
 ];
