@@ -193,4 +193,18 @@ var dmIndx = [
     keywords: "TEAM DEVELOPMENTAL SEQUENCE GROUPS TUCKMAN JENSEN NAVY FORMING STORMING NORMING PERFORMING ADJOURNING",
     path: "./assets/js/dm25.js",
   },
+  {
+    num: 26,
+    title: "Motivation: Expectancy, Hygiene, Achievment",
+    category: group.PSYCHOLOGY,
+    keywords: "MOTIVATION EXPECTANCY THEORY HERZBERG'S HYGIENE TWO-FACTOR ACHIEVMENT MCCLELLAND'S HUMAN NEED DILBERT",
+    path: "./assets/js/dm26.js",
+  },
+  {
+    num: 27,
+    title: "Motivation: X, Y, Z",
+    category: group.PSYCHOLOGY,
+    keywords: "MOTIVATION X Y Z MCGREGGOR OUCHI JAPAN",
+    path: "./assets/js/dm27.js",
+  },
 ];

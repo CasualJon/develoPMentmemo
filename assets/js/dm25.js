@@ -13,16 +13,16 @@ memoString += "<p>In “Developmental Sequence in Small Groups”, Dr. Bruce Tuc
 memoString += "Later, in 1977, Tuckman joined with Mary Ann Jensen for further study and revised the suggested model based on empirical evidence to include a fifth stage of the team development process.</p>";
 
 memoString += "<ol><li><b>Forming</b><br />";
-memoString += "Easy. The beginning stage of team formation, where all members are brought together, introduced, and told the objectives of the project to learn why they’re working together. Commonly, team members are formal and reserved at this stage. Here, a project manager should be focusing on communication.</li>";
+memoString += "Easy. The beginning stage of team formation, where all members are brought together, introduced, and told the objectives of the project to learn why they’re working together. Commonly, team members are formal and reserved at this stage. Here, a project manager should be focusing on communication.</li><br />";
 
 memoString +="<li><b>Storming</b><br />";
-memoString += "The not-fun time starts. Team members become confrontational as they’re maneuvering for position, control, and status. Here, a project manager should understand that some conflict is necessary to push through this stage and focus on ensuring everyone remains centered on the project goals.</li>";
+memoString += "The not-fun time starts. Team members become confrontational as they’re maneuvering for position, control, and status. Here, a project manager should understand that some conflict is necessary to push through this stage and focus on ensuring everyone remains centered on the project goals.</li><br />";
 
 memoString += "<li><b>Norming</b><br />";
-memoString += "The storm calms. Team members know one another by now and have grown comfortable with their place within the team environment. Now, team efforts shift from people problems to project problems and begin making decisions jointly as productivity increases. Unless a project manager maintains focus on collaborative participation toward project goals, teams could regress to the Storming stage.</li>";
+memoString += "The storm calms. Team members know one another by now and have grown comfortable with their place within the team environment. Now, team efforts shift from people problems to project problems and begin making decisions jointly as productivity increases. Unless a project manager maintains focus on collaborative participation toward project goals, teams could regress to the Storming stage.</li><br />";
 
 memoString += "<li><b>Performing</b><br />";
-memoString += "High-functioning ahead. Great teams wind up here, productive and effective in maturity, supported by high levels of trust among team members. Project managers can focus more on the project management process that the team itself, which is usually a self-directing body at this point, so long as you continue to update the on progress and keep the lines of communication open.</li>";
+memoString += "High-functioning ahead. Great teams wind up here, productive and effective in maturity, supported by high levels of trust among team members. Project managers can focus more on the project management process that the team itself, which is usually a self-directing body at this point, so long as you continue to update the on progress and keep the lines of communication open.</li><br />";
 
 memoString += "<li><b>Adjourning</b><br />";
 memoString += "Cue a blues track... The work is done, and the team is dissolved. For high performing teams, this can be accompanied by anxiety, sadness, and a sense of loss just like any breakup. A closure process helps – team celebrations and acknowledgment or recognition for contribution and sacrifice.</li></ol>";
