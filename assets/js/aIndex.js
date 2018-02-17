@@ -6,7 +6,8 @@ const group = {
   COMMUNICATION: "Communication",
   TT: "Tools & Techniques",
   MEETINGS: "Meetings",
-  TIME: "Time & Schedule"
+  TIME: "Time & Schedule",
+  PEOPLE: "People & Teams",
 };
 
 var dmIndx = [
@@ -184,5 +185,12 @@ var dmIndx = [
     category: group.TIME,
     keywords: "DEADLINES STRESS",
     path: "./assets/js/dm24.js",
+  },
+  {
+    num: 25,
+    title: "Team Develoment",
+    category: group.TIME,
+    keywords: "TEAM DEVELOPMENTAL SEQUENCE GROUPS TUCKMAN JENSEN NAVY FORMING STORMING NORMING PERFORMING ADJOURNING",
+    path: "./assets/js/dm25.js",
   },
 ];
