@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Search and select a memo from the develoPMent memo content archives" />
+		<meta name="author" content="develoPMent memo" />
+		<meta name="keywords" content="Project Management, Development Memo, Lessons Learned" />
+
+		<title>Select a memo</title>
+
+		<!-- CSS -->
+		<link href="./assets/css/style.css" rel="stylesheet" />
+
+		<!-- Favicon stuff -->
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/img/favicon/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/img/favicon/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/img/favicon/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/img/favicon/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="60x60" href="./assets/img/favicon/apple-touch-icon-60x60.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/img/favicon/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="./assets/img/favicon/apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/img/favicon/apple-touch-icon-152x152.png" />
+		<link rel="icon" type="image/png" href="./assets/img/favicon/favicon-196x196.png" sizes="196x196" />
+		<link rel="icon" type="image/png" href="./assets/img/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/png" href="./assets/img/favicon/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="./assets/img/favicon/favicon-16x16.png" sizes="16x16" />
+		<link rel="icon" type="image/png" href="./assets/img/favicon/favicon-128.png" sizes="128x128" />
+		<meta name="application-name" content="&nbsp;"/>
+		<meta name="msapplication-TileColor" content="#FFFFFF" />
+		<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+		<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+		<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+		<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+		<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+		<!-- Twitter stuff -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@lifeafterepic">
+		<meta name="twitter:title" content="develoPMent memo">
+		<meta name="twitter:description" content="Project Management thoughts & lessons learned">
+		<meta name="twitter:image" content="http://developmentmemo.com/assets/img/favicon/twitter-card-144x144.png">
+		<meta name="twitter:image:alt" content="develoPMent memo">
+
+	</head>
+
+	<body>
+		<section id="body" class="width">
+			<aside id="sidebar" class="column-left">
+				<header>
+					<h1><a href="./index.html"><img src="./assets/img/dm_clear2.png" width="220"></a></h1>
+					<h2>Project Management thoughts <br /> & lessons learned</h2>
+				</header>
+
+				<nav id="mainnav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li class="selected-item"><a href="#">All Memos</a></li>
+						<li><a href="http://lifeafterepic.com" target="_blank">LifeAfterEpic</a></li>
+						<li><a href="http://epicnoncompete.com" target="_blank">Epic Non-Compete</a></li>
+						<li><a href="https://www.nasa.gov/pdf/293253main_62682main_jerry_madden_forum7.pdf" target="	_blank">A Project Manager's Lessons Learned <small><small>(Jerry Madden, NASA, ret.)</small></small></a></li>
+					</ul>
+				</nav>
+			</aside>
+
+
+			<section id="content" class="column-right">
+				<article>
+					<h2>the develoPMent memo</h2>
+
+					<input id="searchToggle" type="checkbox" checked>
+					  <label for="searchToggle"><b>Search develoPMent memos</b></label>
+					  <div id="searchExpand">
+							<section id="searchMemos"></div>
+					  </div>
+
+					<input id="categoryToggle" type="checkbox" checked>
+					  <label for="categoryToggle"><b>Select develoPMent memos by category</b></label>
+					  <div id="categoryExpand">
+							<section id="allMemos"></div>
+					  </div>
+				</article>
+
+				<article class="expanded">
+					<h3>Selected Memo:</h3>
+					<br />
+					<section id="currentMemo"></section>
+
+				</article>
+
+				<footer class="clear">
+					<p>&copy; 2018 develoPMent memo</p>
+				</footer>
+			</section>
+			<div class="clear"></div>
+		</section>
+	</body>
+
+			<!-- JS here in order to get the random selection to work correctly -->
+			<script src="./assets/js/aIndex.js"></script>
+			<script src="./assets/js/aSelectSearch.js"></script>
+
+</html>

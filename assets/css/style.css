@@ -1,7 +1,6 @@
 @import url(./googleSansPro.css);
 
-
-/** global **/
+/* Global */
 body {
 	margin: 0px auto;
 	padding: 0;
@@ -16,16 +15,18 @@ body {
 }
 
 
-/** element defaults **/
+/* Element defaults */
 table {
 	width: 100%;
 	text-align: left;
 }
 th, td {
 	padding: 5px 10px;
+	font-size: 0.9em;
+	width: 50%;
 }
 th {
-	color: #fff;
+	color: #FFF;
 	border-top: 1px solid #222;
 	background-color: #2F2F2F;
 }
@@ -34,7 +35,7 @@ td {
 }
 code, blockquote {
 	display: block;
-	border-left: 5px solid #ddd;
+	border-left: 5px solid #DDD;
 	padding: 10px;
 	margin-bottom: 20px;
 }
@@ -58,32 +59,13 @@ a:hover {
 a:focus {
 	outline: none;
 }
-a.button {
-    background-color: #5489C4;
-    border-radius: 5px;
-    color: #FFFFFF;
-    display: inline-block;
-    font-weight: bold;
-    padding: 8px 22px;
-    font-size: 0.8em;
-    letter-spacing: 0.25px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-a.button-reversed {
-    background-color: #333;
-}
-a.button:hover {
-	background-color: #3B6FAB;
-}
-a.button-reversed:hover {
-	background-color: #222;
-}
 
+
+/* Form things */
 fieldset {
 	display: block;
 	border: none;
-	border-top: 1px solid #e0e0e0;
+	border-top: 1px solid #E0E0E0;
 }
 fieldset legend {
 	font-weight: bold;
@@ -103,7 +85,7 @@ fieldset form input, fieldset form select, fieldset form textarea {
 	color: #333333;
 	font-size: 13px;
 	font-family: "Source Sans Pro","sans-serif";
-	border: 1px solid #ddd;
+	border: 1px solid #DDD;
 }
 fieldset form input.formbutton {
 border:none;
@@ -118,11 +100,14 @@ border:none;
     text-decoration: none;
     text-transform: uppercase;
 }
+
+
+/* Headings */
 h1 {
 	font-size: 2.4em;
 }
 h2 {
-	color: #2f2f2f;
+	color: #2F2F2F;
 	font-size: 1.8em;
 	font-weight: bold;
 	padding: 0 0 5px;
@@ -151,7 +136,7 @@ li {
 }
 
 
-/** wrapper **/
+/* Div wrapper */
 div#wrapper {
 	margin: 0px auto;
 	padding: 0;
@@ -162,7 +147,7 @@ div#wrapper {
 }
 
 
-/** header **/
+/* Header */
 header {
 	padding: 30px 17px 30px;
 	margin: 0 auto;
@@ -173,7 +158,7 @@ header h1 {
 header h1 a,
 header h1 a:hover,
 header h1 a:visited {
-	color: #fff;
+	color: #FFF;
 	font-size: 1.1em;
 	text-decoration: none;
 	letter-spacing: -2px;
@@ -191,18 +176,18 @@ header h2 {
 }
 
 
-/** body **/
+/* Body */
 section#body {
 	padding: 0;
 	background: #000000;
 }
 
 
-/** content+sidebar styles **/
+/* Content and Sidebar */
 section#content {
 	margin-left: 250px;
 	padding: 20px;
-	background-color: #fff;
+	background-color: #FFF;
 }
 .column-left {
 	float: left;
@@ -231,15 +216,15 @@ nav#mainnav li.selected-item a,
 nav#mainnav li.selected-item a:hover {
 	color: #5489C4;
 	font-weight: bold;
-	background: #fff;
+	background: #FFF;
 }
 nav#mainnav li a:hover {
 	background: #3B6FAB;
-	color: #fff;
+	color: #FFF;
 	text-decoration: none;
 }
 nav#mainnav li a {
-	color: #f0f0f0;
+	color: #F0F0F0;
 	display: block;
 	padding: 15px 17px;
 	text-align: right;
@@ -248,10 +233,11 @@ nav#mainnav li a {
 }
 
 
+/* Article */
 article {
   padding: 10px 10px 30px;
 	font-size: 1.2em;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #EEE;
  }
 article h2 {
   padding-bottom: 0;
@@ -260,27 +246,118 @@ article h2 {
   font-size: 2.5em;
 }
 article .article-info {
-  color: #C0c0c0;
+  color: #C0C0C0;
 	font-size: 0.92em;
 	padding: 0px 0px 10px;
 }
 article .article-info a {
-	color: #ccc;
+	color: #CCC;
 }
 
-
+/* Memo content customizations */
 #preamble {
 	font-size: 0.85em;
 	color: #000;
 }
-
 #vocab {
 	font-weight: bold;
 	color: #800080;
 }
 
+/* Collapsable memo search */
+input[type=checkbox] {
+  display: none;
+  visibility: hidden;
+}
+input[type=text] {
+	padding: 6px;
+	border-bottom: 1px solid #CCC;
+ 	border-radius: 10px;
+	margin-top: 8px;
+	margin-right: 8px;
+	font-size: 1.0em;
+	width: 50%;
+}
+label {
+  display: block;
+  padding: 0.5em;
+  text-align: left;
+  border-bottom: 1px solid #CCC;
+	border-radius: 10px;
+  color: #FFFFFF;
+	background-color: #3B6FAB;
+}
+label:hover {
+  color: #666;
+	background-color: #5489C4;
+}
+label::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 15px;
+  content: url(../img/plus.png);
+  vertical-align: middle;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+}
+#searchExpand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+#categoryExpand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+section#searchMemos {
+  padding: 0 20px;
+}
+section#allMemos {
+  padding: 0 20px;
+}
+#searchToggle:checked ~ #searchExpand {
+  height: 100px;
+}
+#categoryToggle:checked ~ #categoryExpand {
+  height: 1750px;
+}
+#searchToggle:checked ~ label::before {
+  content: url(../img/minus.png);
+}
+#categoryToggle:checked ~ label::before {
+  content: url(../img/minus.png);
+}
+button {
+    background-color: transparent;
+		border: none;
+    border-radius: 4px;
+    color: #666;
+    display: inline-block;
+    padding: 2px 2px;
+    font-size: 0.9em;
+    text-decoration: none;
+		text-align: left;
+		width: 100%
+}
+button:hover {
+	background-color: #5489C4;
+	color: #FFFFFF;
+}
+button.small {
+	width: 6%;
+	vertical-align: bottom;
+ 	border-radius: 10px;
+}
+button.small:hover {
+	background-color: #B3CAE5;
+}
 
-/** footer **/
+
+/* Footer */
 footer {
 	padding: 20px 0px;
 }
@@ -299,7 +376,7 @@ footer p a {
 footer p a:hover { color:#333; border-bottom-color: #333; }
 
 
-/** clear fix **/
+/* Clear */
 .clear:after {
 	display: block;
 	clear: both;
