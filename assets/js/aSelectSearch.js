@@ -4,6 +4,10 @@ const catSubPage = document.getElementById('allMemos');
 const currSubPage = document.getElementById('currentMemo');
 const sToggle = document.getElementById('searchToggle');
 const cToggle = document.getElementById('categoryToggle');
+const srchWindow = document.getElementById('searchExpand');
+var input = "";
+const searchBaseA = "<input id=\"srchBox\" type=\"text\" value=\"";
+const searchBaseB = "\" placeholder=\"Don't work right...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch()\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br />";
 
 //NOTE - CSS currently hard codes column width to 50%
 const tableCols = 2;
@@ -22,12 +26,25 @@ var meetingsArr = [];
 var timeArr = [];
 var peopleArr = [];
 
-buildTables();
+buildCatTables();
 populateScreenData();
 searchSubPage.innerHTML = searchData;
 catSubPage.innerHTML = catData;
 
-function buildTables() {
+//Search box configuration - here becasue it nees to run build tables first
+var sb = document.getElementById('srchBox');
+
+//Execute a function whenever a key is pressed
+sb.addEventListener("keyup", function(event) {
+  event.preventDefault();
+  //Listening for "Enter" key
+  if (event.keyCode === 13) {
+    document.getElementById('srchBtn').click();
+  }
+});
+
+
+function buildCatTables() {
   for (var i = 0; i < dmIndx.length; i++) {
     //Debug code to dump array info to console
     //console.log ("Loop: i=" + i + " dmIndx[i].num=" + dmIndx[i].num + " dmIndx[i].category=" + dmIndx[i].category);
@@ -78,45 +95,44 @@ function buildTables() {
 
 function populateScreenData() {
   //Search section
-  searchData += "<input id=\"srchBox\" type=\"text\" placeholder=\"Search..\">";
-  searchData += "<button class=\"small\" onclick=\"runSearch()\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button>";
+  searchData = searchBaseA + input + searchBaseB;
 
   //Category selection section
   catData += "<h5>Project Management Basics</h5>";
-  populateTable(pmBasicsArr);
+  populateCatTable(pmBasicsArr);
 
   catData += "<h5>Tools & Techniques</h5>";
-  populateTable(ttArr);
+  populateCatTable(ttArr);
 
   catData += "<h5>Communication</h5>";
-  populateTable(communicationArr);
+  populateCatTable(communicationArr);
 
   catData += "<h5>Quality</h5>";
-  populateTable(qualityArr);
+  populateCatTable(qualityArr);
 
   catData += "<h5>Time & Schedule</h5>";
-  populateTable(timeArr);
+  populateCatTable(timeArr);
 
   catData += "<h5>People & Teams</h5>";
-  populateTable(peopleArr);
+  populateCatTable(peopleArr);
 
   catData += "<h5>Environment</h5>";
-  populateTable(environmentArr);
+  populateCatTable(environmentArr);
 
   catData += "<h5>Meetings</h5>";
-  populateTable(meetingsArr);
+  populateCatTable(meetingsArr);
 
   catData += "<h5>Psychology</h5>";
-  populateTable(psychologyArr);
+  populateCatTable(psychologyArr);
 
   ///////////////////////////////////////////////////
-  //More Detail required?
+  //More detail required?
   ///////////////////////////////////////////////////
   catData += "<p>Not finding what you're looking for? Try the search at the top of the page using the most basic key words.<br />For example, if you want to find something related to pipeline management, search \"pipeline\" and you'll note that one of the results is Little's Law which relates to the pipeline throughput.</p>";
 }
 
 
-function populateTable(arr) {
+function populateCatTable(arr) {
   var arrCounter = 0;
   var tableRows = arr.length / tableCols;
   if (arr.length % tableCols != 0)
@@ -136,9 +152,14 @@ function populateTable(arr) {
 
 
 function runSearch() {
-  var boxElement = document.getElementById('srchBox');
-  var term = boxElement.value;
-  //console.log("Search term: " + term);
+  input = sb.value;
+  var term = input;
+  console.log("Search term: " + term);
+
+  //Reset page info to replace tables from prior searches (not add to)
+  searchData = searchBaseA + input + searchBaseB;
+  searchSubPage.innerHTML = searchData;
+
 
   if (term == null || term == undefined || term == "") {
     //console.log("No search term given, quitting.");
@@ -181,9 +202,9 @@ function runSearch() {
       //If the entry's keywords include the term
       if (dmIndx[j].keywords.includes(pieces[i])) {
         var foundEntry = false;
-        //Search the results array for an existing entry
+        //Search the results array for an existing entry from dmIndx
         for (var k = 0; k < results.length; k++) {
-          //If found, increase rank becasue we found it again
+          //If found, increase results entry rank becasue we found it again with another term
           if (results[k].title == dmIndx[j].title) {
             results[k].rank++;
             foundEntry = true;
@@ -195,6 +216,7 @@ function runSearch() {
         if (!foundEntry) {
           var tmp = {
             title: dmIndx[j].title,
+            num: dmIndx[j].num,
             path: dmIndx[j].path,
             rank: 1,
           };
@@ -204,10 +226,34 @@ function runSearch() {
     }
   }
 
+  results.sort(function(a, b) {
+    return b.rank - a.rank;
+  });
   //Debug code dump results array to console
-  // console.log(results);
+  console.log(results);
 
-  //TODO - need to sort the array by the value field
+  var arrCounter = 0;
+  var tableRows = results.length / tableCols;
+  if (results.length % tableCols != 0)
+    tableRows++;
+
+  searchData += "<table>";
+  for (var i = 0; i < tableRows; i++) {
+    searchData += "<tr>";
+    for (var j = 0; arrCounter < results.length && j < tableCols; j++) {
+      searchData += "<td><button onclick=\"setMemo(" + results[arrCounter].num + ")\">" + results[arrCounter].title + "</button></td>";
+      arrCounter ++;
+    }
+    searchData += "</tr>";
+  }
+  searchData += "</table>";
+
+  //Populate window, expand search section to accommodate all returned results
+  searchSubPage.innerHTML = searchData;
+  var sNewHeight = 39 * tableRows + 60;
+  srchWindow.style.height = "" + sNewHeight + "px";
+
+  //console.log("Exiting runSearch();")
 }
 
 

@@ -306,12 +306,12 @@ label::before {
 #searchExpand {
   height: 0px;
   overflow: hidden;
-  transition: height 0.5s;
+  transition: 0.5s;
 }
 #categoryExpand {
   height: 0px;
   overflow: hidden;
-  transition: height 0.5s;
+  transition: 0.5s;
 }
 section#searchMemos {
   padding: 0 20px;
@@ -320,7 +320,7 @@ section#allMemos {
   padding: 0 20px;
 }
 #searchToggle:checked ~ #searchExpand {
-  height: 100px;
+  height: 60px;
 }
 #categoryToggle:checked ~ #categoryExpand {
   height: 1750px;
@@ -348,7 +348,7 @@ button:hover {
 	color: #FFFFFF;
 }
 button.small {
-	width: 6%;
+	width: 8%;
 	vertical-align: bottom;
  	border-radius: 10px;
 }
