@@ -4,7 +4,6 @@
 
 //Get random memo from available content
 var memoNum = getRandom(dmIndx.length);
-
 var selectedMemo = dmIndx[memoNum].path;
 
 var script = document.createElement('script');
