@@ -9,7 +9,7 @@ var selectedMemo = dmIndx[memoNum].path;
 
 var script = document.createElement('script');
   script.src = selectedMemo;
-  //script.async = true;
+  script.async = true;
 document.head.appendChild(script);
 
 //Debug code
