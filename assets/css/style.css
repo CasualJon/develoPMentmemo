@@ -301,7 +301,7 @@ label::before {
   width: 20px;
   height: 20px;
   margin-right: 12px;
-  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+  /* background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%); */
 }
 #searchExpand {
   height: 0px;
