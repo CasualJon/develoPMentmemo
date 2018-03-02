@@ -1,3 +1,9 @@
+//Fetching screen width (to adjust for mobile)
+const width = window.innerWidth
+  || document.documentElement.clientWidth
+  || document.body.clientWidth;
+const smallScr = width < 768;
+
 //Global constants for page info & varibales for table String content
 const searchSubPage = document.getElementById('searchMemos');
 const catSubPage = document.getElementById('allMemos');
@@ -10,7 +16,11 @@ const searchBaseA = "<input id=\"srchBox\" type=\"text\" value=\"";
 const searchBaseB = "\" placeholder=\"Don't work right...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch()\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br />";
 
 //NOTE - CSS currently hard codes column width to 50%
-const tableCols = 2;
+var tableCols = 2;
+//If on mobile device, just use one column for readability
+if (smallScr)
+   tableCols = 1;
+
 
 var searchData = "";
 var catData = "";
@@ -267,5 +277,10 @@ function setMemo(id) {
 
   sToggle.checked = false;
   cToggle.checked = false;
-  window.scrollTo(0, 0);
+
+  //Only scroll to very top if a larger monitor, mobile places menu at top
+  if (smallScr)
+    window.scrollTo(0, 375);
+  else
+    window.scrollTo(0, 0);
 }
