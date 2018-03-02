@@ -13,7 +13,7 @@ const cToggle = document.getElementById('categoryToggle');
 const srchWindow = document.getElementById('searchExpand');
 var input = "";
 const searchBaseA = "<input id=\"srchBox\" type=\"text\" value=\"";
-const searchBaseB = "\" placeholder=\"Don't work right...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch()\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br />";
+const searchBaseB = "\" placeholder=\"Won't work right...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch()\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br />";
 
 //NOTE - CSS currently hard codes column width to 50%
 var tableCols = 2;
