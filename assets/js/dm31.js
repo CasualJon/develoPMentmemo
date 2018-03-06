@@ -23,6 +23,7 @@ memoString += "<p><b>Laissez-faire:</b> Laissez-faire leaders are the opposite o
 
 memoString += "<p><b>Democratic:</b> Democratic (aka participative) leaders gather all their facts and ask for input from the team before committing to a decision. In this style, all team members participate in the decision-making process.</p>";
 
+
 //Get element from front page where memo should be placed
 var subPage = document.getElementById('currentMemo');
 subPage.innerHTML = memoString;

@@ -18,6 +18,7 @@ memoString += "<p>Listeners will make accurate inferences of speakers’ power b
 
 memoString += "<p>Putting it together with the memo concerning \"How Do You Say Hello,\" once you introduce yourself with enthusiasm and confidence set the groundwork of trust and likeability, maintain control of the presentation or meeting by controlling how you present the message to ensure that what you say is considered to its fullest effect.</p>";
 
+
 //Get element from front page where memo should be placed
 var subPage = document.getElementById('currentMemo');
 subPage.innerHTML = memoString;

@@ -29,6 +29,7 @@ memoString += "<i>Any attempt to utilize power outside the range of power will t
 
 memoString += "<p><a href=\"http://marvel.com/characters/54/spider-man\" target=\"_blank\">With great power comes great responsibility. <small><small>(ha!)</small></small></a> Responsibility to protect not only those power is used to influence or affect, but also the responsibility to protect the base of that power itself.</p>";
 
+
 //Get element from front page where memo should be placed
 var subPage = document.getElementById('currentMemo');
 subPage.innerHTML = memoString;

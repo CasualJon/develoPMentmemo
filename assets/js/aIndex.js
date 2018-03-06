@@ -230,9 +230,16 @@ var dmIndx = [
   },
   {
     num: 31,
-    title: "Leadership",
+    title: "Leadership in Practice",
     category: memoGroup.PM_BASICS,
     keywords: "LEADERSHIP STYLES VISION AUTOCRATIC LAISSEZ-FAIRE DEMOCRATIC PARTICIPATIVE DECISIONS MAKING",
     path: "./assets/js/dm31.js",
+  },
+  {
+    num: 32,
+    title: "Leadership in Theory",
+    category: memoGroup.PM_BASICS,
+    keywords: "LEADERSHIP THEORY TANNENBAUM SCHMIDT CONTINUUM MANAGEMENT SITUATIONAL LEVELS FREEDOM CONTEXTUAL DIRECTING COACHING SUPPORTING DELEGATING TRANSACTIONAL TRANSFORMATIONAL",
+    path: "./assets/js/dm32.js",
   },
 ];

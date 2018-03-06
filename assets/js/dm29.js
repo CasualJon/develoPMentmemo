@@ -23,6 +23,7 @@ memoString += "<p>The findings are sound enough <small><small>(ha!)</small></sma
 memoString += "<p>For what it’s worth, my interpretation of the two is Enthusiasm and Confidence.<br />";
 memoString += "So, when you’re first introducing yourself, smile. It comes through in your voice, and people want you engaged and enthusiastic in alignment with their priorities. If you’re not excited to be there, they’re not excited to have you.";
 
+
 //Get element from front page where memo should be placed
 var subPage = document.getElementById('currentMemo');
 subPage.innerHTML = memoString;
