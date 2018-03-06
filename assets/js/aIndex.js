@@ -217,8 +217,22 @@ var dmIndx = [
   {
     num: 29,
     title: "How Do You Say Hello?",
-    category: memoGroup.PSYCHOLOGY,
+    category: memoGroup.Communication,
     keywords: "HOW DO YOU SAY HELLO PSYCHOLOGY COMMUNICATION PHILIP MCALEER ALEXANDER TODOROV PASCAL BELIN GLASGOW PUBLIC SPEAKING",
     path: "./assets/js/dm29.js",
+  },
+  {
+    num: 30,
+    title: "The Sound of Power",
+    category: memoGroup.COMMUNICATION,
+    keywords: "SOUND POWER COMMUNICATION PSYCHOLOGY CONVEYING DETECTING HIERARCHICAL RANK THROUGH VOICE PITCH PUBLIC SPEAKING SEI JEN KO SAN DIEGO UNIVERSITY MELODY SADLER ADAM GALINSKY PSYCHOLOGICAL SCIENCE",
+    path: "./assets/js/dm30.js",
+  },
+  {
+    num: 31,
+    title: "Leadership",
+    category: memoGroup.PM_BASICS,
+    keywords: "LEADERSHIP STYLES VISION AUTOCRATIC LAISSEZ-FAIRE DEMOCRATIC PARTICIPATIVE DECISIONS MAKING",
+    path: "./assets/js/dm31.js",
   },
 ];
