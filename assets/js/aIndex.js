@@ -7,7 +7,7 @@ const memoGroup = {
   TT: "Tools & Techniques",
   MEETINGS: "Meetings",
   TIME: "Time & Schedule",
-  PEOPLE: "People & Teams",
+  PEOPLE: "Managing People & Teams",
 };
 
 var dmIndx = [
@@ -217,7 +217,7 @@ var dmIndx = [
   {
     num: 29,
     title: "How Do You Say Hello?",
-    category: memoGroup.Communication,
+    category: memoGroup.COMMUNICATION,
     keywords: "HOW DO YOU SAY HELLO PSYCHOLOGY COMMUNICATION PHILIP MCALEER ALEXANDER TODOROV PASCAL BELIN GLASGOW PUBLIC SPEAKING",
     path: "./assets/js/dm29.js",
   },
@@ -231,15 +231,22 @@ var dmIndx = [
   {
     num: 31,
     title: "Leadership in Practice",
-    category: memoGroup.PM_BASICS,
+    category: memoGroup.PEOPLE,
     keywords: "LEADERSHIP STYLES VISION AUTOCRATIC LAISSEZ-FAIRE DEMOCRATIC PARTICIPATIVE DECISIONS MAKING",
     path: "./assets/js/dm31.js",
   },
   {
     num: 32,
     title: "Leadership in Theory",
-    category: memoGroup.PM_BASICS,
+    category: memoGroup.PEOPLE,
     keywords: "LEADERSHIP THEORY TANNENBAUM SCHMIDT CONTINUUM MANAGEMENT SITUATIONAL LEVELS FREEDOM CONTEXTUAL DIRECTING COACHING SUPPORTING DELEGATING TRANSACTIONAL TRANSFORMATIONAL",
     path: "./assets/js/dm32.js",
+  },
+  {
+    num: 33,
+    title: "Emotional Intelligence",
+    category: memoGroup.PEOPLE,
+    keywords: "EMOTIONAL INTELLIGENCE EMOTIONS IGNORED EFFECTIVE LISTENING BETTER GROUP DYNAMICS INTROSPECTION JULIAN TREASURE TED TALK",
+    path: "./assets/js/dm33.js",
   },
 ];

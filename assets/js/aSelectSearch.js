@@ -3,6 +3,7 @@ const width = window.innerWidth
   || document.documentElement.clientWidth
   || document.body.clientWidth;
 const smallScr = width < 768;
+//console.log("width = " + width);
 
 //Global constants for page info & varibales for table String content
 const searchSubPage = document.getElementById('searchMemos');
@@ -91,7 +92,7 @@ function buildCatTables() {
         timeArr.push(dmIndx[i]);
         break;
 
-      case "People & Teams":
+      case "Managing People & Teams":
         peopleArr.push(dmIndx[i]);
         break;
 
@@ -123,7 +124,7 @@ function populateScreenData() {
   catData += "<h5>Time & Schedule</h5>";
   populateCatTable(timeArr);
 
-  catData += "<h5>People & Teams</h5>";
+  catData += "<h5>Managing People & Teams</h5>";
   populateCatTable(peopleArr);
 
   catData += "<h5>Environment</h5>";
