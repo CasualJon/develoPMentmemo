@@ -249,4 +249,18 @@ var dmIndx = [
     keywords: "EMOTIONAL INTELLIGENCE EMOTIONS IGNORED EFFECTIVE LISTENING BETTER GROUP DYNAMICS INTROSPECTION JULIAN TREASURE TED TALK",
     path: "./assets/js/dm33.js",
   },
+  {
+    num: 34,
+    title: "Completed Staff Work",
+    category: memoGroup.PEOPLE,
+    keywords: "DOCTRINE COMPLETED STAFF WORK PRESENT SOLUTIONS SCOPE SBAR SITUATION BACKGROUND ASSESSMENT RECOMMENDATION SCOPE SUBJECT CHALLENGE OPPORTUNITIES POSSIBILITIES EVALUATE",
+    path: "./assets/js/dm34.js",
+  },
+  {
+    num: 35,
+    title: "OODA Loop Decision Model",
+    category: memoGroup.TT,
+    keywords: "OODA OBSERVE ORIENT DECIDE ACT LOOP DECISON MAKING MODEL JOHN BOYD AERIAL ATTACK STUDY FIGHTER PILOTS",
+    path: "./assets/js/dm35.js",
+  },
 ];

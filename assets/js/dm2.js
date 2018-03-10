@@ -10,7 +10,7 @@ memoString += "But, three of these are special, and these three live in a love t
 
 memoString += "<p><span id=\"vocab\">Triple Constraint</span> <i>is a graphic aid to represent the interrelationship between the key attributes of Time, Cost, and Scope in a project and their unique impact on the quality of your finished product.</i></p>";
 
-memoString += "<img src=\"./assets/img/memoImages/triple_constraint.png\"><br /><br />";
+memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/triple_constraint.png\"><br /></p>";
 
 memoString += "<p>Hopefully they still teach this in PM Camp.<br />";
 memoString += "Geometry… Shrink any side on a triangle and the area is reduced, so in the above, cut back on the schedule without changing budget or scope and you’ll have a lower quality final result.</p>";

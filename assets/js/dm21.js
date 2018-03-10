@@ -10,7 +10,8 @@ memoString += "<p>Meetings? Hooray!<br />";
 memoString += "Um, wait. Hooray?.<br />";
 memoString += "Meetings can accomplish a lot of good. In fact, meetings are a Tool and Technique of many of Project Management processes:</p>";
 
-memoString += "<img src=\"./assets/img/memoImages/monitorControlWork.png\"><br /><br />";
+memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/monitorControlWork.png\"><br />";
+memoString += "<small><small><span class=\"article-info\">Image source: <a href=\"https://www.pmi.org/pmbok-guide-standards/foundational/pmbok\" target=\"_blank\">The PMBOK Guide - Fifth Edition, PMI</a></span></small></small></p>";
 
 memoString += "<p>But, meetings can also be incredibly wasteful.<br />";
 memoString += "Heard of Parkinson’s Law? Maybe in relation to <a href=\"https://chiefexecutive.net/following-mattels-lead-improving-decision-making-reducing-meeting-bureaucracy/\" target=\"_blank\">Mattel’s (former) CEO</a>?<br />"

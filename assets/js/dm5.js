@@ -14,7 +14,8 @@ memoString += "<p>It’s not difficult to remember the 10 Knowledge Areas. They 
 memoString += "<p>Integration, Scope, Time, Cost, Quality, Human Resource, Communications, Risk, Procurement, Stakeholder</p>";
 
 memoString += "<p>It might lack pizzazz, but the repetitive naming (Project Integration Management, Project Scope Management, Project Time Management...) does slyly illustrate simplicity and iteration by establishing a convention and building upon it – a lesson that can be applied across many facets of our role</p>";
-memoString += "<img src=\"./assets/img/memoImages/knowledgeAreasPMBOK.png\" width=\"500\">";
+memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/knowledgeAreasPMBOK.png\" width=\"500\"><br />";
+memoString += "<small><small><span class=\"article-info\">Image source: <a href=\"https://www.pmi.org/pmbok-guide-standards/foundational/pmbok\" target=\"_blank\">The PMBOK Guide - Fifth Edition, PMI</a></span></small></small></p>";
 
 
 //Get element from front page where memo should be placed

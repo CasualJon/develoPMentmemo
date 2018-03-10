@@ -10,8 +10,8 @@ memoString += "<p>A <span id=\"vocab\">RACI Chart</span><i> is a common type of 
 
 memoString += "<p>Responsibility assignment matrices (such as RACI charts) are a simple way to clearly identify the depth of participation of project stakeholders in the completion of project activities. For unique tasks and deliverables within a RACI chart, we identify individuals by one of four roles:</p>";
 
-memoString += "<img src=\"./assets/img/memoImages/RACI.png\"><br />";
-memoString += "<small><small><span class=\"article-info\">Image source: <a href=\"http://itsmtransition.com/2014/07/basic-raci-chart/\" target=\"_blank\">http://itsmtransition.com/2014/07/basic-raci-chart/</a></span></small></small><br /><br />";
+memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/RACI.png\"><br />";
+memoString += "<small><small><span class=\"article-info\">Image source: <a href=\"http://itsmtransition.com/2014/07/basic-raci-chart/\" target=\"_blank\">http://itsmtransition.com/2014/07/basic-raci-chart/</a></span></small></small><br /></p>";
 
 memoString += "<p>Those responsible for completing the work answer to the one who is accountable, and for any task or decision there is only one accountable individual. ";
 memoString += "Having this information laid bare and shared among the stakeholders sets authority and ownership to drive progress.</p>";

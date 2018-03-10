@@ -8,7 +8,8 @@ memoString += "<p><span id=\"preamble\">There are risks which, if realized, coul
 
 memoString += "<p>A <span id=\"vocab\">Probability and Impact Matrix</span><i> is a grid for mapping the probability of each risk occurrence and its impact on project objectives if that risk occurs. – It’s one of the Tools and Techniques employed within the Perform Qualitative Risk Analysis process.</i></p>";
 
-memoString += "<img src=\"./assets/img/memoImages/probAndImpactMatrix.png\" width=\"500\"><br /><br />"
+memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/probAndImpactMatrix.png\" width=\"500\"><br />";
+memoString += "<small><small><span class=\"article-info\">Image source: <a href=\"https://www.pmi.org/pmbok-guide-standards/foundational/pmbok\" target=\"_blank\">The PMBOK Guide - Fifth Edition, PMI</a></span></small></small></p>";
 
 memoString += "<p>The first note, and you might have caught this above, is that there are both positive and negative risks. Risk is not inherently bad, it’s just that we'll commonly prioritize the minimization of suffering ahead of maximizing happiness. ";
 memoString += "When you consider all risks present (new laws and regulations, new technologies, personality conflicts, natural disasters…), using such a tool to cross reference likelihood and severity will assist in identifying what planning is really worth the effort.</p>";

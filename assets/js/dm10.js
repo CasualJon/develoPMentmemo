@@ -16,7 +16,7 @@ memoString += "One of the largest takeaways from that retrospective is now refer
 memoString += "<p>Rarely can the tasks and deliverables (work packages) of a project be performed in a vacuum, so communication is necessary to coordinate activities.<br />";
 memoString += "Fred described the group intercommunication formula as <b>n(n-1)/2</b></p>";
 
-memoString += "<img src=\"./assets/img/memoImages/groupIntercomFormula.png\"><br /><br />";
+memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/groupIntercomFormula.png\"><br /></p>";
 
 memoString += "<p>So, a 3 person team has 3 communication pathways, but a 10 person team has 45...<br />";
 memoString += "The communication required to coordinate a larger, less nimble team swiftly dominates team efforts and detracts from the marginal benefit delivered by that added investment of people. For every additional team member, the communication pathways compound with an additional connection to every other team member.</p>";
