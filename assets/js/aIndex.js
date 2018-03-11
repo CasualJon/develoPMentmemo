@@ -263,4 +263,25 @@ var dmIndx = [
     keywords: "OODA OBSERVE ORIENT DECIDE ACT LOOP DECISON MAKING MODEL JOHN BOYD AERIAL ATTACK STUDY FIGHTER PILOTS",
     path: "./assets/js/dm35.js",
   },
+  {
+    num: 36,
+    title: "Message to Garcia",
+    category: memoGroup.PEOPLE,
+    keywords: "ANDREW ROWAN MESSAGE CALIXTO GARCIA ELBERT HUBBARD CUBA SPANISH-AMERICAN WAR WILLIAM MCKINLEY",
+    path: "./assets/js/dm36.js",
+  },
+  {
+    num: 37,
+    title: "Synergy and Program Management",
+    category: memoGroup.ENVIRONMENT,
+    keywords: "BUZZWORDS SYNERGY PROGRAM MANAGEMENT BENEFITS MAPPING",
+    path: "./assets/js/dm37.js",
+  },
+  {
+    num: 38,
+    title: "Communication Methods",
+    category: memoGroup.COMMUNICATION,
+    keywords: "EFFECTIVE COMMUNICATION METHODS INTERACTIVE PUSH PULL",
+    path: "./assets/js/dm38.js",
+  },
 ];
