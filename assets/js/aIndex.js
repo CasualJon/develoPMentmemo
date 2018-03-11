@@ -284,4 +284,11 @@ var dmIndx = [
     keywords: "EFFECTIVE COMMUNICATION METHODS INTERACTIVE PUSH PULL",
     path: "./assets/js/dm38.js",
   },
+  {
+    num: 39,
+    title: "Why Projects Are Undertaken",
+    category: memoGroup.PM_BASICS,
+    keywords: "WHY PROJECTS UNDERTAKEN MARKET DEMAND STRATEGIC OPPORTUNITY BUSINESS NEED SOCIAL ENVIRONMENTAL CONSIDERATION CUSTOMER REQUEST TECHNOLOGICAL ADVANCE LEGAL REQUIREMENT PMBOK",
+    path: "./assets/js/dm39.js",
+  },
 ];

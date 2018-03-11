@@ -9,7 +9,7 @@ memoString += "<p><span id=\"preamble\">I tire when faced with a lazy overuse of
 memoString += "<p>A multi-application Epic install is a Program.<br />We manage individual application projects in concert to ensure stewardship of the integration our software thrives upon, but this also allows for stronger control over outcomes.</p>";
 
 memoString += "<p>In fact, that is the goal of Program Management: orchestrate projects from a higher level in order to derive benefits greater than would be possible if the component projects were isolated. Which, technically, is...<br />";
-memoString += "<span id=\"vocab\">Synergy</span><i> the creation of a whole that is greater than the simple sum of its parts.</i></p>";
+memoString += "<span id=\"vocab\">Synergy</span><i>: the creation of a whole that is greater than the simple sum of its parts.</i></p>";
 
 memoString += "<p>A Program emphasizes aligning projects and project objectives (benefits) with an organization’s strategic goals.<br />";
 memoString += "Mapping expected benefits and sequencing their delivery across the constituent projects, then reconciling this to organizational goals in support of a broader vision helps inform the conventional project cycle of <i>Design > Develop > Test > Deliver</i>.</p>";

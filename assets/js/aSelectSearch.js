@@ -1,8 +1,21 @@
 //Fetching screen width (to adjust for mobile)
-const width = window.innerWidth
-  || document.documentElement.clientWidth
-  || document.body.clientWidth;
-const smallScr = width < 768;
+//If on mobile device, just use one column for readability
+//If larger laptop/desktop, use 3 columns for space saving
+var width;
+var tableCols;
+checkCols();
+function checkCols() {
+  width = window.innerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth;
+
+  if (width <= 768)
+    tableCols = 1;
+  else if (width > 768 && width < 1201)
+    tableCols = 2;
+  else
+    tableCols = 3;
+};
 //console.log("width = " + width);
 
 //Global constants for page info & varibales for table String content
@@ -16,13 +29,7 @@ var input = "";
 const searchBaseA = "<input id=\"srchBox\" type=\"text\" value=\"";
 const searchBaseB = "\" placeholder=\"Won't work right...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch()\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br />";
 
-//NOTE - CSS currently hard codes column width to 50%
-var tableCols = 2;
-//If on mobile device, just use one column for readability
-if (smallScr)
-   tableCols = 1;
-
-
+//String vars to hold the screen
 var searchData = "";
 var catData = "";
 
@@ -44,7 +51,6 @@ catSubPage.innerHTML = catData;
 
 //Search box configuration - here becasue it nees to run build tables first
 var sb = document.getElementById('srchBox');
-
 //Execute a function whenever a key is pressed
 sb.addEventListener("keyup", function(event) {
   event.preventDefault();
@@ -145,8 +151,9 @@ function populateScreenData() {
 
 function populateCatTable(arr) {
   var arrCounter = 0;
-  var tableRows = arr.length / tableCols;
-  if (arr.length % tableCols != 0)
+  var tableRows = Math.floor(arr.length / tableCols);
+  var modLenCols = arr.length % tableCols;
+  if (modLenCols != 0)
     tableRows++;
 
   catData += "<table>";
@@ -156,8 +163,17 @@ function populateCatTable(arr) {
       catData += "<td><button onclick=\"setMemo(" + arr[arrCounter].num + ")\">" + arr[arrCounter].title + "</button></td>";
       arrCounter ++;
     }
+
+    //Add fillers cols if final row has fewer than tableCols
+    if (i == (tableRows - 1) && modLenCols != 0) {
+      for (var k = 0; k < (tableCols - modLenCols); k++) {
+        catData += "<td></td>";
+      }
+    }
+
     catData += "</tr>";
   }
+
   catData += "</table><br />";
 }
 
@@ -285,3 +301,13 @@ function setMemo(id) {
   else
     window.scrollTo(0, 0);
 }
+
+
+//Body resizing configuration
+document.getElementsByTagName('body')[0].onresize = function() {
+  checkCols();
+
+  catData = "";
+  populateScreenData();
+  catSubPage.innerHTML = catData;
+};
