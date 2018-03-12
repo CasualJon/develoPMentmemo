@@ -5,7 +5,7 @@
 var memoString = "";
 
 memoString += "<p><span id=\"preamble\">With daily interactions, I put effort into avoiding overt use of industry jargon, but sometimes pulling from a standard lexicon makes a message easier to understand.<br/>";
-memoString += "<img src=\"./assets/img/memoImages/dogbertZombie.jpg\"><br />";
+memoString += "<img src=\"./assets/img/memoImages/dm4_dogbertZombie.jpg\"><br />";
 memoString += "Well, often, anyway... As long as everyone understands the convention :)</span></p><br />";
 
 memoString += "<p>A <span id=\"vocab\">Work Breakdown Structure (WBS)</span><i> is hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables.</i></p>";
@@ -18,7 +18,7 @@ memoString += "<p>In <i>small</i> projects, that might be enough, but we continu
 memoString += "<p>To get a horse you must inform your squire who will head to the stable. Your squire needs to feed, water, brush, and saddle the horse before bringing it to the castle gate for a big send-off celebration.<br />";
 memoString += "Performing this decomposition helps define all the minutia as well as uncover specifics you may not yet have thought about. Also, a WBS can enable project managers to build a bottom-up estimate of the time needed to complete some or all of the project from estimates you can assign to the individual work packages.</p>";
 
-memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/dragonWBS.png\" width=\"500\"><br /></p>";
+memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/dm4_dragonWBS.png\" width=\"500\"><br /></p>";
 
 memoString += "<p>Having this information helps you define the full scope of work for the project, and provides an input to scheduling activities (where we can address things like <i>Training</i> should be sequenced before <i>Find Dragon</i>).</p>";
 

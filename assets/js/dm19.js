@@ -18,7 +18,7 @@ memoString += "<li>identify the longest chain of interdependent activities betwe
 memoString += "<p> For example, imagine that your SMEs identify a need to extract and submit specific data elements to the state in a very particular manner...";
 memoString += "So, you kick off a (sub)project to design, build, and test the extract and submission process to satisfy this requirement.</p>";
 
-memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/critPath.png\" width=\"500\"><br /></p>";
+memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/dm19_critPath.png\" width=\"500\"><br /></p>";
 //applitude.se doesn't seem to exist any longer
 //memoString += "<small><small><span class=\"article-info\">Image source: <a href=\"http://www.applitude.se/images/criticalpathmethod.png\" target=\"_blank\">http://www.applitude.se/images/criticalpathmethod.png</a></span></small></small><br /><br />";
 

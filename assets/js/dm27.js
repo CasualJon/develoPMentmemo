@@ -5,7 +5,7 @@
 var memoString = "";
 
 memoString += "<p><span id=\"preamble\">Previously, we introduced three theories of motivation which are expected as common knowledge among project managers.<br />";
-memoString += "Our big problem is that none of those chumps, those so-and-sos positing such theories as these understand that the <a href=\"http://developmentmemo.com/assets/img/memoImages/the_cake_is_a_lie.jpg\" target=\"_blank\">true secret to motivation is cake! People love cake. Mmm-mmm, cake</a>.</span></p><br />";
+memoString += "Our big problem is that none of those chumps, those so-and-sos positing such theories as these understand that the <a href=\"http://developmentmemo.com/assets/img/memoImages/dm27_the_cake_is_a_lie.jpg\" target=\"_blank\">true secret to motivation is cake! People love cake. Mmm-mmm, cake</a>.</span></p><br />";
 
 memoString += "<p>Now, we address three more theories of motivation commonly referenced in Project Management. However, note that this isn’t everything. You might notice we haven’t touched upon one of the oldest theories (Maslow) nor one of the newest (Pritchard and Ashwood)...</p>";
 

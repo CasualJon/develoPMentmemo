@@ -20,7 +20,7 @@ memoString += "<li><b>Decide</b> - pick the best solution (sometimes the least f
 memoString += "<li><b>Act</b> - execute (sometimes a.k.a. test the hypothesis)</li>";
 memoString += "<li><b>Loop</b> - outcomes observed better inform subsequent possible options and decisions: always improve</li></ul>";
 
-memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/ooda_loop.png\"><br />";
+memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/dm35_ooda_loop.png\"><br />";
 memoString += "<small><small><span class=\"article-info\">Image source: <a href=\"https://www.seba.blog/2017/07/ooda-loop-method-for-dealing-with-uncertainty/\" target=\"_blank\">https://www.seba.blog/2017/07/ooda-loop-method-for-dealing-with-uncertainty/</a></span></small></small></p>";
 
 memoString += "<p>Through a series of lectures, Boyd argued that our inability to properly make sense of our world – our immediate situation – represents a larger hindrance to desired outcome than information uncertainty.</p>";
@@ -29,7 +29,7 @@ memoString += "<p>When circumstances change, people will often stick with mental
 
 memoString += "<p>Willingness to adjust based on evidence recognizes that not all situations are optimal (observation) and not all decisions are correct (outcome of action). Building a feedback loop into your decision making process provides adaptability when things do work as predicted based on your original model.</p>";
 
-memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/ooda_2.png\" width=\"500\"><br />";
+memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/dm35_ooda_2.png\" width=\"500\"><br />";
 memoString += "<small><small><span class=\"article-info\">Image source: <a href=\"https://www.seba.blog/2017/07/ooda-loop-method-for-dealing-with-uncertainty/\" target=\"_blank\">https://www.seba.blog/2017/07/ooda-loop-method-for-dealing-with-uncertainty/</a></span></small></small></p>";
 
 

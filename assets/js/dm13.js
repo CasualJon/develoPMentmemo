@@ -5,14 +5,16 @@
 var memoString = "";
 
 memoString += "<p><span id=\"preamble\">Citius, Altius, Fortius. Faster, Higher, Stronger... The Olympic motto.<br />";
-memoString += "Melius, Citius, Vilius. Better, Faster, Cheaper… The CIO motto.</span></p><br />";
+memoString += "Melius, Citius, Vilius. Better, Faster, Cheaper... The CIO motto.</span></p><br />";
 
 memoString += "<p><span id=\"vocab\">Cost of Quality (COQ)</span><i> is a method of determining the costs incurred to ensure quality. Prevention and appraisal costs (cost of conformance) ";
-memoString += "include costs for quality planning, quality control (QC), and quality assurance to ensure compliance requirements (i.e., training, QC systems, etc.). Failure costs (cost of nonconformance) include costs to rework products, components, or processes that are non-compliant, costs of warranty work and waste, and loss of reputation.</i></p>";
+memoString += "include costs for quality planning, quality control (QC), and quality assurance to ensure compliance requirements (i.e., training, QC systems, etc.).</i></p>";
+
+memoString += "<p><span id=\"vocab\">Failure Cost</span> <i>(cost of nonconformance) includes costs to rework products, components, or processes that are non-compliant, costs of warranty work and waste, and loss of reputation.</i></p>";
 
 memoString += "<p>Cost of Poor Quality - - that’s the term I prefer to Cost of Nonconformance and Failure Cost. Plus it sounds better.</p>";
 
-memoString += "<img src=\"./assets/img/memoImages/dilbertBudget.png\"><br /><br />";
+memoString += "<img src=\"./assets/img/memoImages/dm13_dilbertBudget.png\"><br /><br />";
 
 memoString += "<p>Cost of Poor Quality also communicates the idea that it’s really just the opposite face of the same coin. Shortcut on Quality Controls like testing and training materials review (whether for time or expense), and you increase the risk of significant system or workflow defects. ";
 memoString += "If a failure occurs, it will require more time and effort (expense) to fix post-live than had you addressed it earlier.</p>";

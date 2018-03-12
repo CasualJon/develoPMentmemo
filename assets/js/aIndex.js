@@ -106,7 +106,7 @@ var dmIndx = [
     num: 13,
     title: "Cost of Quality",
     category: memoGroup.QUALITY,
-    keywords: "COST QUALITY POOR FAILURE NONCONFORMANCE DILBERT",
+    keywords: "COST QUALITY CONTROL POOR FAILURE NONCONFORMANCE QC QA DILBERT",
     path: "./assets/js/dm13.js",
   },
   {
@@ -290,5 +290,19 @@ var dmIndx = [
     category: memoGroup.PM_BASICS,
     keywords: "WHY PROJECTS UNDERTAKEN MARKET DEMAND STRATEGIC OPPORTUNITY BUSINESS NEED SOCIAL ENVIRONMENTAL CONSIDERATION CUSTOMER REQUEST TECHNOLOGICAL ADVANCE LEGAL REQUIREMENT PMBOK",
     path: "./assets/js/dm39.js",
+  },
+  {
+    num: 40,
+    title: "Burnout",
+    category: memoGroup.PSYCHOLOGY,
+    keywords: "BURNOUT PSYCHOLOGY Z73.0 DROWNING DRIED UP STRESS",
+    path: "./assets/js/dm40.js",
+  },
+  {
+    num: 41,
+    title: "Teamwork, Integrity, and Tone",
+    category: memoGroup.PEOPLE,
+    keywords: "HIGH FUNCTIONING TEAMWORK INTEGRITY TONE EMMERSON THUNDERDOME KNEEJERK REACTION BLAME COLLABORATION",
+    path: "./assets/js/dm41.js",
   },
 ];

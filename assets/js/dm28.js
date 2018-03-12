@@ -4,7 +4,7 @@
 
 var memoString = "";
 
-memoString += "<p><span id=\"preamble\">Now that we have a team and a few thoughts on motivating said team, and before we get to concepts of leadership, let’s talk about power.</span><br /><img src=\"./assets/img/memoImages/homerSimposon_maxPower.jpg\" height=\"140\"></p><br />";
+memoString += "<p><span id=\"preamble\">Now that we have a team and a few thoughts on motivating said team, and before we get to concepts of leadership, let’s talk about power.</span><br /><img src=\"./assets/img/memoImages/dm28_homerSimposon_maxPower.jpg\" height=\"140\"></p><br />";
 
 memoString += "<p><span id=\"vocab\">Power</span><i> is the ability to influence others, to change minds and alter the course of events or influence outcomes.</i></p>";
 

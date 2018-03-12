@@ -8,7 +8,7 @@ memoString += "<p><span id=\"preamble\">Yes, Spielberg, I know my character is a
 memoString += "We've talked about the team development cycle, and the path teams take to grow from individual strangers to a high-functioning, self-directed, cohesive unit.<br />";
 memoString += "So, how do we motivate a team? How do we motivate people?</span></p><br />";
 
-memoString += "<img src=\"./assets/img/memoImages/dilbertMotivation.jpg\"><br /><br />";
+memoString += "<img src=\"./assets/img/memoImages/dm26_dilbertMotivation.jpg\"><br /><br />";
 
 memoString += "<p><i>Project teams are comprised of team members with diverse backgrounds, expectations, and individual objectives. The overall success of the project depends upon the project team’s commitment, which is directly related to their level of motivation.<br />";
 memoString += "Motivating in a project setting involves creating an environment to meet project objectives while providing maximum satisfaction related to what people value most. These values may include job satisfaction, challenging work, a sense of accomplishment, achievement and growth, sufficient financial compensation, and other rewards and recognition the individual considers necessary and important.</i></p>";
