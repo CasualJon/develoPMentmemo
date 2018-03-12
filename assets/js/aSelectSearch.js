@@ -296,7 +296,7 @@ function setMemo(id) {
   cToggle.checked = false;
 
   //Only scroll to very top if a larger monitor, mobile places menu at top
-  if (smallScr)
+  if (width <= 768)
     window.scrollTo(0, 375);
   else
     window.scrollTo(0, 0);
