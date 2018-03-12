@@ -326,4 +326,11 @@ var dmIndx = [
     keywords: "TRIGGER CONDITION RISK",
     path: "./assets/js/dm44.js",
   },
+  {
+    num: 45,
+    title: "How You Craft a Message",
+    category: memoGroup.COMMUNICATION,
+    keywords: "SPRINGTIME SPRING TIME BLIND CRAFT MESSAGE ODIN DAVID OGILVY MARY WELLS LAWRENCE JACQUES PREVERT CENTRAL PARK BEGGAR SIGN",
+    path: "./assets/js/dm45.js",
+  },
 ];
