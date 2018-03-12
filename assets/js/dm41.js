@@ -4,7 +4,7 @@
 
 var memoString = "";
 
-memoString += "<p><span id=\"preamble\">Proud Mary sailed the Styx with Charon at the helm. I know this because how else would <a href=\"./assets/imgs/memoImages/dm41_TT_madmax.jpg\" target=\"_blank\">Tina Turner end up running the Thunderdome</a> in a post-apocalyptic dystopia.<br /><i>Two men enter, one man leaves.</i></span></p><br />";
+memoString += "<p><span id=\"preamble\">Proud Mary sailed the Styx with Charon at the helm. I know this because how else would <a href=\"./assets/img/memoImages/dm41_TT_madmax.jpg\" target=\"_blank\">Tina Turner end up running the Thunderdome</a> in a post-apocalyptic dystopia.<br /><i>Two men enter, one man leaves.</i></span></p><br />";
 
 memoString += "<p>I don’t believe Emmerson was correct when he said, \"In failing circumstances, no one can be relied on to keep their integrity.\"</p>";
 
