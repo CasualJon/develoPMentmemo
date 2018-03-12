@@ -4,7 +4,7 @@
 
 var memoString = "";
 
-memoString += "<p><span id=\"preamble\">If <a href=\"dm45_EngelhardOdinStatueHannover.jpg\" target=\"_blank\">Odin</a> has only one eye, does this mean that Asgard is the land of the blind?</span></p><br />";
+memoString += "<p><span id=\"preamble\">If <a href=\"./assets/img/memoImages/dm45_EngelhardOdinStatueHannover.jpg\" target=\"_blank\">Odin</a> has only one eye, does this mean that Asgard is the land of the blind?</span></p><br />";
 
 memoString += "<p><i>There was a blind beggar in Central Park one day with a tin cup wearing the conventional sign, \"I am blind.\" A man noticed how few contributions the blind man received, so he went up to the beggar and said, \"Look here, you’re not doing too well. I’m an advertising man and I think I can help you if you’ll just let me change your sign a little bit.\"</i></p>";
 memoString += "<p><i>The beggar didn’t have much to lose, and so the advertising man wrote a few words on the sign and left. Later that afternoon he returned. The beggar was doing much better. As he approached, the blind man recognized his footsteps and said, \"My friend, what have you done to help me? I’ve never had a day like this. What did you put on my sign?\"</i></p>";
