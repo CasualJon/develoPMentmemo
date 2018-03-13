@@ -333,4 +333,11 @@ var dmIndx = [
     keywords: "SPRINGTIME SPRING TIME BLIND CRAFT MESSAGE ODIN DAVID OGILVY MARY WELLS LAWRENCE JACQUES PREVERT CENTRAL PARK BEGGAR SIGN",
     path: "./assets/js/dm45.js",
   },
+  {
+    num: 46,
+    title: "Coaching",
+    category: memoGroup.PEOPLE,
+    keywords: "COACHING TELEMACHUS MENTORING ALFRED LORD TENNYSON ULYSSES COUNSELING",
+    path: "./assets/js/dm46.js",
+  },
 ];
