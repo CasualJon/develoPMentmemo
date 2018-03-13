@@ -6,7 +6,7 @@ var memoString = "";
 
 memoString += "<p><span id=\"preamble\">We live and work in a world of information, but for all the data we have, reality is often confusing, ambiguous, and uncertain. Never having certainty, how do we make decisions?</span></p><br />";
 
-memoString += "<p>The <span id=\"vocab\">OODA Loop</span><i> is a decision making style modeled for a world of ambiguity and uncertainty incorporating a learning system to empirically inform, and thus refine, subsequent decisions and actions.</i></p>";
+memoString += "<p><i>The</i> <span id=\"vocab\">OODA Loop</span><i> is a decision making style modeled for a world of ambiguity and uncertainty incorporating a learning system to empirically inform, and thus refine, subsequent decisions and actions.</i></p>";
 
 memoString += "<p>This week’s topic isn’t Project Management cannon, but it’s good information, so here goes the watered down version... sorry if it's a bit long.</p>";
 

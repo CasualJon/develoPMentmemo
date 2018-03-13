@@ -8,7 +8,7 @@ memoString += "<p><span id=\"preamble\">With daily interactions, I put effort in
 memoString += "<img src=\"./assets/img/memoImages/dm4_dogbertZombie.jpg\"><br />";
 memoString += "Well, often, anyway... As long as everyone understands the convention :)</span></p><br />";
 
-memoString += "<p>A <span id=\"vocab\">Work Breakdown Structure (WBS)</span><i> is hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables.</i></p>";
+memoString += "<p><i>A</i> <span id=\"vocab\">Work Breakdown Structure (WBS)</span><i> is hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables.</i></p>";
 
 memoString += "<p>A WBS is created by dividing and subdividing project deliverables and work down to snack-size. Say you’re tasked with slaying a dragon… what must you do to get there?<br />";
 memoString += "At the least, you probably need a horse, some armor, a lance, a bit of food, information on where to find the dragon, and <a href=\"https://www.youtube.com/watch?v=_YYmfM2TfUA\" target=\"_blank\">a massive Rocky training montage</a> to prepare for the fight.</p>";

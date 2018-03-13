@@ -6,7 +6,7 @@ var memoString = "";
 
 memoString += "<p><span id=\"preamble\">Project management is an occupation full of preoccupations, and everyone’s too darn busy being too darn busy. There are reasons tasks and deliverables might falling behind, but where one task slipping might have a negligible effect to the overall project schedule, another might pose severe complications if it falls behind.</span></p><br />";
 
-memoString += "<p>The <span id=\"vocab\">Critical Path</span><i> is the sequence of activities that represents the longest path through a project, which determines the shortest possible duration.</i></p>";
+memoString += "<p><i>The</i> <span id=\"vocab\">Critical Path</span><i> is the sequence of activities that represents the longest path through a project, which determines the shortest possible duration.</i></p>";
 
 memoString += "<p>There are additional supporting concepts behind calculating the Critical Path, but ignore that for now.</p>";
 

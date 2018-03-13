@@ -10,8 +10,9 @@ memoString += "So, how do we motivate a team? How do we motivate people?</span><
 
 memoString += "<img src=\"./assets/img/memoImages/dm26_dilbertMotivation.jpg\"><br /><br />";
 
-memoString += "<p><i>Project teams are comprised of team members with diverse backgrounds, expectations, and individual objectives. The overall success of the project depends upon the project team’s commitment, which is directly related to their level of motivation.<br />";
-memoString += "Motivating in a project setting involves creating an environment to meet project objectives while providing maximum satisfaction related to what people value most. These values may include job satisfaction, challenging work, a sense of accomplishment, achievement and growth, sufficient financial compensation, and other rewards and recognition the individual considers necessary and important.</i></p>";
+memoString += "<p>Project teams are comprised of team members with diverse backgrounds, expectations, and individual objectives. The overall success of the project depends upon the project team’s commitment, which is directly related to their level of motivation.</p>";
+
+memoString += "<p>Motivating in a project setting involves creating an environment to meet project objectives while providing maximum satisfaction related to what people value most. These values may include job satisfaction, challenging work, a sense of accomplishment, achievement and growth, sufficient financial compensation, and other rewards and recognition the individual considers necessary and important.</p>";
 
 memoString += "<p>Today, we’ll hit the first three (of six) theories of motivation commonly referenced in Project Management circles (and tests  	&#9786;).</p>";
 

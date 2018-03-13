@@ -6,7 +6,7 @@ var memoString = "";
 
 memoString += "<p><span id=\"preamble\">Ever have a bad email day? One where it won't stop arriving, and the more you try to get through the further behind you fall. Intuitively, you know the reason behind why it feels this way, but it’s comforting to see that there is formal math behind it :)</span></p><br />";
 
-memoString += "<p><span id=\"vocab\">Term</span><i> states that the average number of customers in a stable system (over some interval) [L] is equal to their average arrival rate [λ] multiplied by their average time in the system [W].</i><br />";
+memoString += "<p><span id=\"vocab\">Little's Law</span><i> states that the average number of customers in a stable system (over some interval) [L] is equal to their average arrival rate [λ] multiplied by their average time in the system [W].</i><br />";
 memoString += "&nbsp;&nbsp;&nbsp;L = λW</p>";
 
 memoString += "<p>Let’s try more relevant terms:<br />";

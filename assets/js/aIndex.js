@@ -85,7 +85,7 @@ var dmIndx = [
     num: 10,
     title: "Manage Communications",
     category: memoGroup.COMMUNICATION,
-    keywords: "MANAGE COMMUNICATIONS FRED BROOKS GROUP INTERCOMMUNICATION FORMULA MYITHICAL MAN MONTH",
+    keywords: "COMMUNICATIONS MANAGEMENT PLAN FRED BROOKS GROUP INTERCOMMUNICATION FORMULA MYITHICAL MAN MONTH",
     path: "./assets/js/dm10.js",
   },
   {

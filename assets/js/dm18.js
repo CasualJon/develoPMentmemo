@@ -6,7 +6,7 @@ var memoString = "";
 
 memoString += "<p><span id=\"preamble\">We could always do more, can always use more time... Figuring out how long a task should take can be a challenge, there are so many factors to consider, so many things can affect the outcome. So, where do we start?</span></p><br />";
 
-memoString += "<p>A <span id=\"vocab\">Three Point Estimate</span><i> is a technique used to estimate cost or duration by applying an average of optimistic, pessimistic, and most likely estimates when there is uncertainty with the individual activity estimates.</i></p>";
+memoString += "<p><i>A</i> <span id=\"vocab\">Three Point Estimate</span><i> is a technique used to estimate cost or duration by applying an average of optimistic, pessimistic, and most likely estimates when there is uncertainty with the individual activity estimates.</i></p>";
 
 memoString += "<p>One type of three-point estimate is the Program Review and Evaluation Technique (PERT).<br />";
 memoString += "<small><small>There will be math. It will be easy</small></small></p>";

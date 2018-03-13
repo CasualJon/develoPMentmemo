@@ -6,7 +6,7 @@ var memoString = "";
 
 memoString += "<p><span id=\"preamble\">There are risks which, if realized, could net great benefit to your project, and others that might make life miserable for a spell. But, there can be so many risks and potential outcomes that it’s sometimes overwhelming to know where to spend project efforts in order to capture benefits and minimize setbacks.</span></p><br />";
 
-memoString += "<p>A <span id=\"vocab\">Probability and Impact Matrix</span><i> is a grid for mapping the probability of each risk occurrence and its impact on project objectives if that risk occurs. – It’s one of the Tools and Techniques employed within the Perform Qualitative Risk Analysis process.</i></p>";
+memoString += "<p><i>A</i> <span id=\"vocab\">Probability and Impact Matrix</span><i> is a grid for mapping the probability of each risk occurrence and its impact on project objectives if that risk occurs. – It’s one of the Tools and Techniques employed within the Perform Qualitative Risk Analysis process.</i></p>";
 
 memoString += "<p style=\"text-align:center\"><img src=\"./assets/img/memoImages/dm17_probAndImpactMatrix.png\" width=\"500\"><br />";
 memoString += "<small><small><span class=\"article-info\">Image source: <a href=\"https://www.pmi.org/pmbok-guide-standards/foundational/pmbok\" target=\"_blank\">The PMBOK Guide - Fifth Edition, PMI</a></span></small></small></p>";

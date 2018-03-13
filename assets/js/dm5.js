@@ -8,7 +8,7 @@ memoString += "<p><span id=\"preamble\">Organizational and planning skills are c
 memoString += "It’s unsurprising, then, that the documentation codifying a discipline focused on planning organizes its own building blocks within a crossmatrix. In fact, it’s so expected that Excel is probably launching itself on your laptop right now, completely unbidden, because… well... project management.<br />";
 memoString += "The PMBOK Guide (5th ed.) organizes the 47 processes of project management into 5 Process Groups, then stratifies the grouped processes across 10 Knowledge Areas.</span></p><br />";
 
-memoString += "<p>A <span id=\"vocab\">Knowledge Area</span><i> represents a complete set of concepts, terms, and activities that make up a professional field, project management field, or area of specialization.</i></p>";
+memoString += "<p><i>A</i> <span id=\"vocab\">Knowledge Area</span><i> represents a complete set of concepts, terms, and activities that make up a professional field, project management field, or area of specialization.</i></p>";
 
 memoString += "<p>It’s not difficult to remember the 10 Knowledge Areas. They all start with “Project” and they all end with “Management” so you can just insert your own mnemonic device:</p>";
 memoString += "<p>Integration, Scope, Time, Cost, Quality, Human Resource, Communications, Risk, Procurement, Stakeholder</p>";

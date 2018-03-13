@@ -8,7 +8,7 @@ memoString += "<p><span id=\"preamble\">We have <i>top men</i> working on it rig
 memoString += "Who?!<br />";
 memoString += "<a href=\"http://www.youtube.com/watch?v=FRP0MBNoieY&t=0m19s\" target=\"_blank\">Top. Men.</a></span></p><br />";
 
-memoString += "<p>A <span id=\"vocab\">Product</span><i> is an artifact that is produced, is quantifiable, and can be either an end item in itself or a component item. Additional words for products are material goods. See also <u>deliverable</u>.</i></p>";
+memoString += "<p><i>A</i> <span id=\"vocab\">Product</span><i> is an artifact that is produced, is quantifiable, and can be either an end item in itself or a component item. Additional words for products are material goods. See also <u>deliverable</u>.</i></p>";
 
 memoString += "<p>Here, I’m less interested in a Product and more interested in what a product is: an Artifact.<br />";
 memoString += "Artifacts are tangible by-products produced during a project – both core and ancillary to the activities of Project Management: project charter, progress reports, workflow diagrams, risk registries, project plans, issues lists, agendas, meeting notes... all artifacts.</p>";

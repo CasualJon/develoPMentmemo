@@ -10,7 +10,7 @@ memoString += "<a href=\"https://www.projectmanager.com/blog/whats-positive-risk
 memoString += "For my work, I use this opportunity to look backwards. Is there a decision somewhere past that I regret? What can I learn from that?<br />";
 memoString += "This kind of retrospective analysis is something we already do within projects.</span></p><br />";
 
-memoString += "<p>A <span id=\"vocab\">Phase Gate</span><i> is a review at the end of a phase in which a decision is made to continue to the next phase, to continue with modification, or to end a project or program.</i></p>";
+memoString += "<p><i>A</i> <span id=\"vocab\">Phase Gate</span><i> is a review at the end of a phase in which a decision is made to continue to the next phase, to continue with modification, or to end a project or program.</i></p>";
 
 memoString += "<p>If you don’t know <a href=\"https://www.theatlantic.com/technology/archive/2011/11/the-horrible-thing-that-happened-to-enos-the-chimp-when-he-orbited-earth-50-years-ago/249241/\" target=\"_blank\">the story of Enos</a>, I encourage you to read the linked, short account of his heartbreaking space flight.</p>";
 memoString += "<p>The programs and projects at NASA are run by individuals who, like us, try to deliver their absolute best every project. Given the drive pushing each of us to deliver now, sometimes consequences for the future become afterthoughts. Sure the workflow fits now, but is it sustainable? ";
