@@ -16,6 +16,7 @@ memoString += "<p>If a team member is not meeting expectations for want of skill
 
 memoString += "<p>Different from Mentoring or Coaching, <i>Counseling</i> focuses on addressing situations where team members <i>won’t</i> do something rather than <i>can’t</i> do something.</p>";
 
+
 //Get element from front page where memo should be placed
 var subPage = document.getElementById('currentMemo');
 subPage.innerHTML = memoString;

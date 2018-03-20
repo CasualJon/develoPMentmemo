@@ -340,4 +340,18 @@ var dmIndx = [
     keywords: "COACHING TELEMACHUS MENTORING ALFRED LORD TENNYSON ULYSSES COUNSELING",
     path: "./assets/js/dm46.js",
   },
+  {
+    num: 47,
+    title: "Close Project",
+    category: memoGroup.PM_BASICS,
+    keywords: "CLOSE PROJECT PMBOK PMP PROCESS GROUPS FALL HUMANITY ADDITION STARVATION INTEGRATION EXTINCTION BIG GULPS DUMBER",
+    path: "./assets/js/dm47.js",
+  },
+  {
+    num: 48,
+    title: "Serial Position Effect",
+    category: memoGroup.PSYCHOLOGY,
+    keywords: "SERIAL POSITION EFFECT PRIMARY RECENCY MEMORY FORGET",
+    path: "./assets/js/dm48.js",
+  },
 ];
