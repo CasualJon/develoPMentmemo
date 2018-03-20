@@ -6,7 +6,7 @@ var memoString = "";
 
 memoString += "<p><span id=\"preamble\">HeaderHere</span></p><br />";
 
-memoString += "<p><span id=\"vocab\">Term</span><i> .</i></p>";
+memoString += "<p><i></i><span id=\"vocab\">Term</span><i> .</i></p>";
 
 memoString += "<p>Details.</p>";
 

@@ -354,4 +354,11 @@ var dmIndx = [
     keywords: "SERIAL POSITION EFFECT PRIMARY RECENCY MEMORY FORGET",
     path: "./assets/js/dm48.js",
   },
+  {
+    num: 49,
+    title: "Gantt Chart",
+    category: memoGroup.TIME,
+    keywords: "HENRY GANTT CHART ME BAR SCHEDULE INFORMATION ACTIVITIES",
+    path: "./assets/js/dm49.js",
+  },
 ];
