@@ -302,7 +302,7 @@ var dmIndx = [
     num: 41,
     title: "Collaboration in High Functioning Teams",
     category: memoGroup.PEOPLE,
-    keywords: "HIGH FUNCTIONING TEAMWORK INTEGRITY TONE EMMERSON THUNDERDOME KNEEJERK REACTION BLAME COLLABORATION",
+    keywords: "HIGH FUNCTIONING TEAMWORK INTEGRITY TONE EMMERSON THUNDERDOME KNEEJERK REACTION BLAME COLLABORATION PROUD MARY TINA TURNER",
     path: "./assets/js/dm41.js",
   },
   {
@@ -323,7 +323,7 @@ var dmIndx = [
     num: 44,
     title: "Trigger Condition",
     category: memoGroup.ENVIRONMENT,
-    keywords: "TRIGGER CONDITION RISK",
+    keywords: "TRIGGER CONDITION RISK TSUNAMI",
     path: "./assets/js/dm44.js",
   },
   {
@@ -337,7 +337,7 @@ var dmIndx = [
     num: 46,
     title: "Coaching",
     category: memoGroup.PEOPLE,
-    keywords: "COACHING TELEMACHUS MENTORING ALFRED LORD TENNYSON ULYSSES COUNSELING",
+    keywords: "COACHING TELEMACHUS MENTORING ALFRED LORD TENNYSON ULYSSES COUNSELING BOBBY KNIGHT CHAIR",
     path: "./assets/js/dm46.js",
   },
   {
@@ -360,5 +360,19 @@ var dmIndx = [
     category: memoGroup.TIME,
     keywords: "HENRY GANTT CHART ME BAR SCHEDULE INFORMATION ACTIVITIES",
     path: "./assets/js/dm49.js",
+  },
+  {
+    num: 50,
+    title: "Abbreviations (100LL)",
+    category: memoGroup.COMMUNICATION,
+    keywords: "COMMUNICATION ABBREVIATIONS 100LL LESSONS LEARNED SIMPLICITY INSULT INTELLIGENCE CFB DNB HAR CVG REG PR KPI PLV GLRA CIO 57",
+    path: "./assets/js/dm50.js",
+  },
+  {
+    num: 51,
+    title: "TL;DR",
+    category: memoGroup.COMMUNICATION,
+    keywords: " TL;DR TLDR BREVITY POLONIUS BLAISE PASCAL COMMUNICATION CLEAR PRECISE UNDERSTANDABLE",
+    path: "./assets/js/dm51.js",
   },
 ];
