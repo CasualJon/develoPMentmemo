@@ -396,4 +396,11 @@ var dmIndx = [
     keywords: "CONSISTENCY CONSISTENT QUALITY HALLOWEEN WINDOWS",
     path: "./assets/js/dm54.js",
   },
+  {
+    num: 55,
+    title: "Blowback",
+    category: memoGroup.COMMUNICATION,
+    keywords: "FEEDBACK BLOWBACK WOUND COMMUNICATION",
+    path: "./assets/js/dm55.js",
+  },
 ];
