@@ -384,7 +384,7 @@ var dmIndx = [
   },
   {
     num: 53,
-    title: "Talk is not cheap (100LL)",
+    title: "Talk is Not Cheap (100LL)",
     category: memoGroup.COMMUNICATION,
     keywords: "TALK NOT CHEAP 100LL LESSONS LEARNED COMMUNICATION TELEPHONE OREO SPEEDWAGON TGI FRIDAYS 97",
     path: "./assets/js/dm53.js",
@@ -402,5 +402,12 @@ var dmIndx = [
     category: memoGroup.COMMUNICATION,
     keywords: "FEEDBACK BLOWBACK WOUND COMMUNICATION",
     path: "./assets/js/dm55.js",
+  },
+  {
+    num: 56,
+    title: "The Source of Problems (100LL)",
+    category: memoGroup.PEOPLE,
+    keywords: "SOURCE PROBLEMS PEOPLE 100LL LESSONS LEARNED ICE CUBE GOOD DAY SOFT SKILLS",
+    path: "./assets/js/dm56.js",
   },
 ];
