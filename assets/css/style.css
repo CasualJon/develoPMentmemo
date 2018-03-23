@@ -38,6 +38,7 @@ code, blockquote {
 	border-left: 5px solid #DDD;
 	padding: 10px;
 	margin-bottom: 20px;
+	font-size: 0.8em;
 }
 blockquote p {
 	font-style: italic;
