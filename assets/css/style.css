@@ -324,7 +324,7 @@ section#allMemos {
   height: 60px;
 }
 #categoryToggle:checked ~ #categoryExpand {
-  height: 2400px;
+  height: 3000px;
 }
 #searchToggle:checked ~ label::before {
   content: url(../img/minus.png);
