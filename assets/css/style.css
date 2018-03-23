@@ -323,7 +323,7 @@ section#allMemos {
   height: 60px;
 }
 #categoryToggle:checked ~ #categoryExpand {
-  height: 2000px;
+  height: 2400px;
 }
 #searchToggle:checked ~ label::before {
   content: url(../img/minus.png);
