@@ -620,4 +620,32 @@ var dmIndx = [
     keywords: "ADDING PEOPLE PROBLEM COOK UNDER-SALTED LITTLE AT A TIME COMMUNICATION PATHWAYS CHANNELS N-1 * 2 100LL LESSONS LEARNED",
     path: "./assets/js/dm86.js",
   },
+  {
+    num: 87,
+    title: "Pygmalion Effect",
+    category: memoGroup.PSYCHOLOGY,
+    keywords: "PYGMALION EFFECT ROSENTHAL EFFECT EXPECTATIONS REALITY MY FAIR LADY",
+    path: "./assets/js/dm87.js",
+  },
+  {
+    num: 88,
+    title: "Never Make A Decision From A Cartoon (100LL)",
+    category: memoGroup.COMMUNICATION,
+    keywords: "COMMUNICATION NEVER MAKE A DECISION FROM CARTOON EYES ON PROBLEM LOST IN TRANSLATION  100LL LESSONS LEARNED",
+    path: "./assets/js/dm88.js",
+  },
+  {
+    num: 89,
+    title: "The Horse That Requires No Food (100LL)",
+    category: memoGroup.ENVIRONMENT,
+    keywords: "HEADQUARTERS MYTH HORSE REDUCE FOOD DEAD CANNIBALISM SUBTLE CHANGE 100LL LESSONS LEARNED",
+    path: "./assets/js/dm89.js",
+  },
+  {
+    num: 90,
+    title: "Decomposition",
+    category: memoGroup.TT,
+    keywords: "DECOMPOSITION TOOL TECHNIQUE WORK BREAKDOWN STRUCTURE WBS MAKE LIST PMBOK PMP",
+    path: "./assets/js/dm90.js",
+  },
 ];
