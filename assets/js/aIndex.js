@@ -606,4 +606,18 @@ var dmIndx = [
     keywords: "SWOT STRENGTHS WEAKNESSES OPPORTUNITIES THREATS JOHN MCENROE",
     path: "./assets/js/dm84.js",
   },
+  {
+    num: 85,
+    title: "Optimism Bias",
+    category: memoGroup.TT,
+    keywords: "OPTIMISM BIAS UNREALISTIC COMPARATIVE PLANNING FALLACY TARGET FIXATION DUMBLEDORE",
+    path: "./assets/js/dm85.js",
+  },
+  {
+    num: 86,
+    title: "Adding People To The Problem (100LL)",
+    category: memoGroup.COMMUNICATION,
+    keywords: "ADDING PEOPLE PROBLEM COOK UNDER-SALTED LITTLE AT A TIME COMMUNICATION PATHWAYS CHANNELS N-1 * 2 100LL LESSONS LEARNED",
+    path: "./assets/js/dm86.js",
+  },
 ];
