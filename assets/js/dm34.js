@@ -13,9 +13,16 @@ memoString += "This is what developing SBAR (Situation, Background, Assessment, 
 
 memoString += "<p><a href=\"\" target=\"_blank\">The memo itself</a> is a quick, easy one-page read. I chose this version for its slightly modernized tone to current workplace sensibilities.</p>";
 
-memoString += "<p>Do not let a broader message get lost in the use of formal power structures or specific examples. The advice is just as sound in our team-focused environment where we hold a responsibility to guide others by our acquired knowledge and skills. Address problems with the intent of driving change by detailing the specific actions necessary to achieve the goal instead of passing critical thinking up the chain, or worse to someone who should be relying on your expertise.</p>";
+memoString += "<p>Do not let a broader message get lost in the use of formal power structures or specific examples.<br />";
+memoString += "In essence, the responsibility for critical thinking should always belong to you. As a Project Manager you are an engine of change, even in a collaborative environment where all shoulder some of the burden.</p>";
 
-memoString += "<p>As Epic Project Managers, we are the engines of change in a multi-national, billion-dollar company developing industry-leading software that saves lives. Sometimes I need to remind myself of this fact and shoulder the responsibility of spending the effort.</p>";
+memoString += "<p><i><u>I have a problem with X. What do you think I should do?</u></i><br />";
+memoString += "Consistently offloading critical thinking to someone you report to doesn't build the favorable impression of you being a competent professional. And, offloading critical thinking to a team can create swirl and lead to inaction through the diffusion of responsibility.</p>";
+
+memoString += "<p><i><u>I have a problem with X. My current plan is to do Y and Z. What feedback do you have about this plan?</u></i><br />";
+memoString += "To drive change, think the issue through in advance and present a recommendation. It's the 21st centruy, everyone is always busy. How do you react when others merely dump a problem into your lap and expect answers? Besides, you're more likely to get your way if yo're the one constructing a well-thought plan.</p>";
+
+memoString += "<p>Address problems with the intent of driving change by detailing the specific actions necessary to achieve the goal instead of passing critical thinking up the chain, or worse to someone who should be relying on your expertise.</p>";
 
 
 //Get element from front page where memo should be placed
