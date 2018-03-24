@@ -732,4 +732,25 @@ var dmIndx = [
     keywords: "STRATEGIC AMBIGUITY DIRECTION WITHOUT DETAIL UNIFIED DIVERSITY FACILITATE ORGANIZATIONAL CHANGE APLIFICATION ATTRIBUTION PRESERVATION PRIVILEGE",
     path: "./assets/js/dm102.js",
   },
+  {
+    num: 103,
+    title: "Grade vs. Quality, Zero Defects, Fitness for Use",
+    category: memoGroup.QUALITY,
+    keywords: "GRADE QUALITY MANAGEMENT BUGS ZERO DEFECTS ZD CROSBY PRICE NONCOMFORMANCE FITNESS USE JURAN",
+    path: "./assets/js/dm103.js",
+  },
+  {
+    num: 104,
+    title: "Quality is a Management Problem, TQM, Plan-Do-Check-Act Cycle",
+    category: memoGroup.QUALITY,
+    keywords: "QUALITY MANAGEMENT PROBLEM DEMMING TOTAL TQM ARMAND FEIGENBAUMPLAN DO CHECK ACT CYCLE WALTER SHEWHART",
+    path: "./assets/js/dm104.js",
+  },
+  {
+    num: 105,
+    title: "Kaizen Approach and Capability Maturity Model Integration",
+    category: memoGroup.QUALITY,
+    keywords: "KAIZEN APPROACH CONTINUOUS IMPROVEMENT CAPABILITY MATURITY MODEL INTEGRATION CMMI",
+    path: "./assets/js/dm105.js",
+  },
 ];
