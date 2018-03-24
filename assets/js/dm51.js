@@ -10,9 +10,9 @@ memoString += "<p><i>A </i><span id=\"vocab\">TL;DR</span><i> goes at the beginn
 
 memoString += "<p>To get your point across, put the soul of the matter up front. Nothing important should be buried, so if it’s important enough to say, then don’t let it be lost in a wandering explanation.</p>";
 
-memoString += "<p>In 1657, Blaise Pascal once ended a letter by saying (roughly) <i>\"I have made this longer than usual because I have not had time to make it shorter.\"</i> Since then, many great writers have expressed the sentiment.</p>";
+memoString += "<p>In 1657, Blaise Pascal once ended a letter by saying (roughly) <i>\"I have made this longer than usual because I have not had time to make it shorter.\"</i> Since then, other greats have expressed the sentiment.</p>";
 
-memoString += "<p>Communication is the core of Project Management. You can take the time required to be clear, precise, and understandable. At the least, take the time to ensure that understanding your point does not waste another’s time.</p>";
+memoString += "<p>Communication is the core of Project Management. You can take the time required to be clear, precise, and understandable. At the least, take the time to ensure that understanding your point does not waste another's time.</p>";
 
 
 //Get element from front page where memo should be placed
