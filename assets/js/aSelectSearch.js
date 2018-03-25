@@ -199,6 +199,7 @@ function runSearch() {
   term = term.toUpperCase();
 
   //Check to see if multiple words in search term
+  //Changed from term.includes because of fucking IE and Safari
   if (term.indexOf(" ") > -1) {
     var i = 0;
     while (term.indexOf(" ") > -1) {
@@ -223,7 +224,8 @@ function runSearch() {
   for (var i = 0; i < pieces.length; i++) {
     for (var j = 0; j < dmIndx.length; j++) {
       //If the entry's keywords include the term
-      if (dmIndx[j].keywords.includes(pieces[i])) {
+      //Changed from dmIndx[].keywords.includes.includes because of fucking IE and Safari
+      if (dmIndx[j].keywords.search(pieces[i]) != -1) {
         var foundEntry = false;
         //Search the results array for an existing entry from dmIndx
         for (var k = 0; k < results.length; k++) {
