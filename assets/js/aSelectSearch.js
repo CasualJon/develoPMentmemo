@@ -199,12 +199,12 @@ function runSearch() {
   term = term.toUpperCase();
 
   //Check to see if multiple words in search term
-  if (term.includes(' ')) {
+  if (term.includes(" ")) {
     var i = 0;
-    while (term.includes(' ')) {
-      pieces[i] = term.substring(0, term.indexOf(' '));
+    while (term.includes(" ")) {
+      pieces[i] = term.substring(0, term.indexOf(" "));
       i++;
-      term = term.substring(term.indexOf(' ') + 1, term.length);
+      term = term.substring(term.indexOf(" ") + 1, term.length);
     }
     //Add the last one
     if (term != "") {
@@ -253,7 +253,7 @@ function runSearch() {
     return b.rank - a.rank;
   });
   //Debug code dump results array to console
-  console.log(results);
+  // console.log(results);
 
   var arrCounter = 0;
   var tableRows = Math.floor(results.length / tableCols);
@@ -303,10 +303,7 @@ function setMemo(id) {
 //Can't direct set element.style.height or the collapse function no longer works... this is the work around
 function addCSSRule(sheet, selector, rules) {
   var index = 0;
-  var rulesList = sheet.rules;
-  if (rulesList == "" || rulesList == null || rulesList == undefined)
-    rulesList = sheet.cssRules;
-
+  var rulesList = sheet.cssRules;
   for (var i = 0; i < rulesList.length; i++) {
     // console.log(rulesList[i]);
     if (rulesList[i].selectorText == selector) {
