@@ -324,12 +324,12 @@ section#allMemos {
   height: 60px;
 }
 #categoryToggle:checked ~ #categoryExpand {
-  height: 3000px;
+  height: 5400px;
 }
-#searchToggle:checked ~ label::before {
+#searchToggle:checked ~ #sLab::before {
   content: url(../img/minus.png);
 }
-#categoryToggle:checked ~ label::before {
+#categoryToggle:checked ~ #cLab::before {
   content: url(../img/minus.png);
 }
 button {

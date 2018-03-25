@@ -3,20 +3,6 @@
 //If larger laptop/desktop, use 3 columns for space saving
 var width;
 var tableCols;
-checkCols();
-function checkCols() {
-  width = window.innerWidth
-    || document.documentElement.clientWidth
-    || document.body.clientWidth;
-
-  if (width <= 768)
-    tableCols = 1;
-  else if (width > 768 && width < 1201)
-    tableCols = 2;
-  else
-    tableCols = 3;
-};
-//console.log("width = " + width);
 
 //Global constants for page info & varibales for table String content
 const searchSubPage = document.getElementById('searchMemos');
@@ -25,9 +11,63 @@ const currSubPage = document.getElementById('currentMemo');
 const sToggle = document.getElementById('searchToggle');
 const cToggle = document.getElementById('categoryToggle');
 const srchWindow = document.getElementById('searchExpand');
+const catWindow = document.getElementById('categoryExpand');
 var input = "";
 const searchBaseA = "<input id=\"srchBox\" type=\"text\" value=\"";
 const searchBaseB = "\" placeholder=\"Won't work right...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch()\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br />";
+
+// //Execute a function whenever toggles used
+// sToggle.addEventListener("ontoggle", function(event) {
+//   event.preventDefault();
+//   //Listening for toggle, but evaluating checked status
+//   if (sToggle.checked == false)
+//     sToggle.style.content = "url(../img/plus.png)";
+//   else
+//     sToggle.style.content = "url(../img/minus.png)";
+//
+//   if (cToggle.checked == false)
+//     cToggle.style.content = "url(../img/plus.png)";
+//   else
+//     cToggle.style.content = "url(../img/minus.png)";
+// });
+// cToggle.addEventListener("ontoggle", function(event) {
+//   event.preventDefault();
+//   //Listening for toggle, but evaluating checked status
+//   if (sToggle.checked == false)
+//     sToggle.style.content = "url(../img/plus.png)";
+//   else
+//     sToggle.style.content = "url(../img/minus.png)";
+//
+//   if (cToggle.checked == false)
+//     cToggle.style.content = "url(../img/plus.png)";
+//   else
+//     cToggle.style.content = "url(../img/minus.png)";
+// });
+
+//Columns checked after identifying elements
+checkCols();
+function checkCols() {
+  width = window.innerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth;
+
+  if (width <= 768) {
+    tableCols = 1;
+    // catWindow.style.height = "5400px";
+    // console.log("width = " + width);
+  }
+  else if (width > 768 && width < 1201) {
+    tableCols = 2;
+    // catWindow.style.height = "5400px";
+    // console.log("width = " + width);
+  }
+  else {
+    tableCols = 3;
+    // catWindow.style.height = "5400px";
+    // console.log("width = " + width);
+  }
+};
+//console.log("width = " + width);
 
 //String vars to hold the screen
 var searchData = "";
