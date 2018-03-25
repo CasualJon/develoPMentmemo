@@ -303,7 +303,10 @@ function setMemo(id) {
 //Can't direct set element.style.height or the collapse function no longer works... this is the work around
 function addCSSRule(sheet, selector, rules) {
   var index = 0;
-  var rulesList = sheet.cssRules;
+  var rulesList = sheet.rules;
+  if (rulesList == "" || rulesList == null || rulesList == undefined)
+    rulesList = sheet.cssRules;
+
   for (var i = 0; i < rulesList.length; i++) {
     // console.log(rulesList[i]);
     if (rulesList[i].selectorText == selector) {
