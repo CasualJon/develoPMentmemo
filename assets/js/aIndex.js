@@ -769,7 +769,7 @@ var dmIndx = [
   },
   {
     num: 108,
-    title: "Don't Cultivate Egotism",
+    title: "Don't Cultivate Egotism (100LL)",
     category: memoGroup.PSYCHOLOGY,
     keywords: "DON'T CULTIVATE EGOTISM DIFFICULT CHANGE POSITION GOOD IDEAS COME FROM ANYWHERE 100LL LESSONS LEARNED",
     path: "./assets/js/dm108.js",

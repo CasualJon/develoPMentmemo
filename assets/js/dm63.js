@@ -7,7 +7,7 @@ var memoString = "";
 memoString += "<p><span id=\"preamble\"><i>Someone is always watching...</i><br />";
 memoString += "Give that tagline a montage overdubbed by some disembodied gravelly voice, and it starts to sound creepy.</span></p><br />";
 
-memoString += "<p><i>the </i><span id=\"vocab\"><a href=\"https://www.pmi.org/about/ethics/code\" target=\"_blank\">Project Management Institute Code of Ethics and Professional Conduct</a></span><i> guides practitioners of the profession about the basic obligation of responsibility, respect, fairness and honesty, and describes expectations that practitioners should hold for themselves and others.</i></p>";
+memoString += "<p><i>The </i><span id=\"vocab\"><a href=\"https://www.pmi.org/about/ethics/code\" target=\"_blank\">Project Management Institute Code of Ethics and Professional Conduct</a></span><i> guides practitioners of the profession about the basic obligation of responsibility, respect, fairness and honesty, and describes expectations that practitioners should hold for themselves and others.</i></p>";
 
 memoString += "<p>It’s not a bad thing that someone is always watching, that’s just the way it of it.<br />";
 memoString += "There are times you are aware and accepting of being eyed, such as presenting on stage or hosting an issues review meeting. But, even when you’re staying quiet or hanging back, someone notices.</p>";

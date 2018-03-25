@@ -14,35 +14,7 @@ const srchWindow = document.getElementById('searchExpand');
 const catWindow = document.getElementById('categoryExpand');
 var input = "";
 const searchBaseA = "<input id=\"srchBox\" type=\"text\" value=\"";
-const searchBaseB = "\" placeholder=\"Won't work right...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch()\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br />";
-
-// //Execute a function whenever toggles used
-// sToggle.addEventListener("ontoggle", function(event) {
-//   event.preventDefault();
-//   //Listening for toggle, but evaluating checked status
-//   if (sToggle.checked == false)
-//     sToggle.style.content = "url(../img/plus.png)";
-//   else
-//     sToggle.style.content = "url(../img/minus.png)";
-//
-//   if (cToggle.checked == false)
-//     cToggle.style.content = "url(../img/plus.png)";
-//   else
-//     cToggle.style.content = "url(../img/minus.png)";
-// });
-// cToggle.addEventListener("ontoggle", function(event) {
-//   event.preventDefault();
-//   //Listening for toggle, but evaluating checked status
-//   if (sToggle.checked == false)
-//     sToggle.style.content = "url(../img/plus.png)";
-//   else
-//     sToggle.style.content = "url(../img/minus.png)";
-//
-//   if (cToggle.checked == false)
-//     cToggle.style.content = "url(../img/plus.png)";
-//   else
-//     cToggle.style.content = "url(../img/minus.png)";
-// });
+const searchBaseB = "\" placeholder=\"Won't work right...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch(sb.value)\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br />";
 
 //Columns checked after identifying elements
 checkCols();
@@ -53,18 +25,12 @@ function checkCols() {
 
   if (width <= 768) {
     tableCols = 1;
-    // catWindow.style.height = "5400px";
-    // console.log("width = " + width);
   }
   else if (width > 768 && width < 1201) {
     tableCols = 2;
-    // catWindow.style.height = "5400px";
-    // console.log("width = " + width);
   }
   else {
     tableCols = 3;
-    // catWindow.style.height = "5400px";
-    // console.log("width = " + width);
   }
 };
 //console.log("width = " + width);
@@ -89,7 +55,11 @@ populateScreenData();
 searchSubPage.innerHTML = searchData;
 catSubPage.innerHTML = catData;
 
-//Search box configuration - here becasue it nees to run build tables first
+
+// console.log("stylesheets: " + document.styleSheets[0].cssRules);
+
+
+//Search box configuration - here becasue it needs to run build tables first
 var sb = document.getElementById('srchBox');
 //Execute a function whenever a key is pressed
 sb.addEventListener("keyup", function(event) {
@@ -188,7 +158,9 @@ function populateScreenData() {
   catData += "<p>Not finding what you're looking for? Try the search at the top of the page using the most basic key words.<br />For example, if you want to find something related to pipeline management, search \"pipeline\" and you'll note that one of the results is Little's Law which relates to the pipeline throughput.</p>";
 }
 
-
+///////////////////////////////////////////////////
+//Populate Search By Category
+///////////////////////////////////////////////////
 function populateCatTable(arr) {
   var arrCounter = 0;
   var tableRows = Math.floor(arr.length / tableCols);
@@ -217,14 +189,17 @@ function populateCatTable(arr) {
   catData += "</table><br />";
 }
 
-
-function runSearch() {
-  input = sb.value;
-  var term = input;
+///////////////////////////////////////////////////
+//Run Search and Populate Results
+///////////////////////////////////////////////////
+function runSearch(theEntry) {
+  // input = sb.value;
+  var term = theEntry;
   console.log("Search term: " + term);
+  // console.log("input = sb.value: " + input);
 
   //Reset page info to replace tables from prior searches (not add to)
-  searchData = searchBaseA + input + searchBaseB;
+  searchData = searchBaseA + term + searchBaseB;
   searchSubPage.innerHTML = searchData;
 
 
@@ -300,31 +275,33 @@ function runSearch() {
   console.log(results);
 
   var arrCounter = 0;
-  var tableRows = results.length / tableCols;
+  var tableRows = Math.floor(results.length / tableCols);
   if (results.length % tableCols != 0)
     tableRows++;
+
+  var sNewHeight = 39 * tableRows + 60;
 
   searchData += "<table>";
   for (var i = 0; i < tableRows; i++) {
     searchData += "<tr>";
     for (var j = 0; arrCounter < results.length && j < tableCols; j++) {
-      searchData += "<td><button onclick=\"setMemo(" + results[arrCounter].num + ")\">" + results[arrCounter].title + "</button></td>";
+      searchData += "<td><button onclick=\"setMemo(" + results[arrCounter].num + ", " + sNewHeight + ")\">" + results[arrCounter].title + "</button></td>";
       arrCounter ++;
     }
+
     searchData += "</tr>";
   }
   searchData += "</table>";
 
   //Populate window, expand search section to accommodate all returned results
   searchSubPage.innerHTML = searchData;
-  var sNewHeight = 39 * tableRows + 60;
-  srchWindow.style.height = "" + sNewHeight + "px";
+  addCSSRule(document.styleSheets[0], "#searchToggle:checked ~ #searchExpand", "height: " + sNewHeight + "px;");
 
   //console.log("Exiting runSearch();")
 }
 
 
-function setMemo(id) {
+function setMemo(id, height) {
   //console.log("Selected memo: " + id + " - " + dmIndx[id].title);
   var selectedMemo = dmIndx[id].path;
   var script = document.createElement('script');
@@ -340,6 +317,27 @@ function setMemo(id) {
     window.scrollTo(0, 375);
   else
     window.scrollTo(0, 0);
+}
+
+//Can't direct set element.style.height or the collapse function no longer works... this is the work around
+function addCSSRule(sheet, selector, rules) {
+  var index = 0;
+  var rulesList = sheet.cssRules;
+  for (var i = 0; i < rulesList.length; i++) {
+    console.log(rulesList[i]);
+    if (rulesList[i].selectorText == selector) {
+      index = i;
+      sheet.deleteRule(index);
+      break;
+    }
+  }
+
+	if("insertRule" in sheet) {
+		sheet.insertRule(selector + "{" + rules + "}", index);
+	}
+	else if("addRule" in sheet) {
+		sheet.addRule(selector, rules, index);
+	}
 }
 
 
