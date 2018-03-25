@@ -199,9 +199,9 @@ function runSearch() {
   term = term.toUpperCase();
 
   //Check to see if multiple words in search term
-  if (term.includes(" ")) {
+  if (term.indexOf(" ") > -1) {
     var i = 0;
-    while (term.includes(" ")) {
+    while (term.indexOf(" ") > -1) {
       pieces[i] = term.substring(0, term.indexOf(" "));
       i++;
       term = term.substring(term.indexOf(" ") + 1, term.length);
