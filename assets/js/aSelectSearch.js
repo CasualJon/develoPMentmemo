@@ -55,10 +55,6 @@ populateScreenData();
 searchSubPage.innerHTML = searchData;
 catSubPage.innerHTML = catData;
 
-
-// console.log("stylesheets: " + document.styleSheets[0].cssRules);
-
-
 //Search box configuration - here becasue it needs to run build tables first
 var sb = document.getElementById('srchBox');
 //Execute a function whenever a key is pressed
@@ -324,7 +320,7 @@ function addCSSRule(sheet, selector, rules) {
   var index = 0;
   var rulesList = sheet.cssRules;
   for (var i = 0; i < rulesList.length; i++) {
-    console.log(rulesList[i]);
+    // console.log(rulesList[i]);
     if (rulesList[i].selectorText == selector) {
       index = i;
       sheet.deleteRule(index);
