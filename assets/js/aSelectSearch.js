@@ -13,8 +13,8 @@ const cToggle = document.getElementById('categoryToggle');
 const srchWindow = document.getElementById('searchExpand');
 const catWindow = document.getElementById('categoryExpand');
 var input = "";
-const searchBaseA = "<input id=\"srchBox\" type=\"text\" value=\"";
-const searchBaseB = "\" placeholder=\"Won't work right...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch(sb.value)\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br />";
+const searchBaseA = "<form id=\"srchForm\" method=\"POST\"><input id=\"srchBox\" type=\"text\" value=\"";
+const searchBaseB = "\" placeholder=\"Search term...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch()\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br /></form>";
 
 //Columns checked after identifying elements
 checkCols();
@@ -54,18 +54,6 @@ buildCatTables();
 populateScreenData();
 searchSubPage.innerHTML = searchData;
 catSubPage.innerHTML = catData;
-
-//Search box configuration - here becasue it needs to run build tables first
-var sb = document.getElementById('srchBox');
-//Execute a function whenever a key is pressed
-sb.addEventListener("keyup", function(event) {
-  event.preventDefault();
-  //Listening for "Enter" key
-  if (event.keyCode === 13) {
-    document.getElementById('srchBtn').click();
-  }
-});
-
 
 function buildCatTables() {
   for (var i = 0; i < dmIndx.length; i++) {
@@ -188,16 +176,13 @@ function populateCatTable(arr) {
 ///////////////////////////////////////////////////
 //Run Search and Populate Results
 ///////////////////////////////////////////////////
-function runSearch(theEntry) {
-  // input = sb.value;
-  var term = theEntry;
-  console.log("Search term: " + term);
-  // console.log("input = sb.value: " + input);
+function runSearch() {
+  input = document.getElementById('srchBox').value;
+  var term = input;
+  //console.log("Search term: " + term);
 
   //Reset page info to replace tables from prior searches (not add to)
   searchData = searchBaseA + term + searchBaseB;
-  searchSubPage.innerHTML = searchData;
-
 
   if (term == null || term == undefined || term == "") {
     //console.log("No search term given, quitting.");
@@ -281,7 +266,7 @@ function runSearch(theEntry) {
   for (var i = 0; i < tableRows; i++) {
     searchData += "<tr>";
     for (var j = 0; arrCounter < results.length && j < tableCols; j++) {
-      searchData += "<td><button onclick=\"setMemo(" + results[arrCounter].num + ", " + sNewHeight + ")\">" + results[arrCounter].title + "</button></td>";
+      searchData += "<td><button onclick=\"setMemo(" + results[arrCounter].num + ")\">" + results[arrCounter].title + "</button></td>";
       arrCounter ++;
     }
 
@@ -297,7 +282,7 @@ function runSearch(theEntry) {
 }
 
 
-function setMemo(id, height) {
+function setMemo(id) {
   //console.log("Selected memo: " + id + " - " + dmIndx[id].title);
   var selectedMemo = dmIndx[id].path;
   var script = document.createElement('script');

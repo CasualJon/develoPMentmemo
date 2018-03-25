@@ -349,7 +349,7 @@ button:hover {
 	color: #FFFFFF;
 }
 button.small {
-	width: 8%;
+	width: 32px;
 	vertical-align: bottom;
  	border-radius: 10px;
 }
