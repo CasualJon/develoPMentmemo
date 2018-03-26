@@ -275,7 +275,7 @@ function runSearch() {
   if (results.length % tableCols != 0)
     tableRows++;
 
-  var sNewHeight = 60 * tableRows + 60;
+  var sNewHeight = 49 * tableRows + 60;
   console.log("#rows = " + tableRows);
   console.log("sNewHeight = " + sNewHeight);
 
