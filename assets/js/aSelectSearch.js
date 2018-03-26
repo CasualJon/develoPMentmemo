@@ -306,6 +306,12 @@ function setMemo(id) {
 function addCSSRule(sheet, selector, rules) {
   var index = 0;
   var rulesList = sheet.cssRules;
+
+  //Goddammit Internet Explorer & Safari
+  if ((navigator.userAgent.indexOf("MSIE") != -1) || (!!document.documentMode == true ) || navigator.userAgent.indexOf("Safari") != -1) {
+    selector = ":checked#searchToggle ~ #searchExpand";
+  }
+
   for (var i = 0; i < rulesList.length; i++) {
     // console.log(rulesList[i]);
     if (rulesList[i].selectorText == selector) {
@@ -315,10 +321,13 @@ function addCSSRule(sheet, selector, rules) {
     }
   }
 
-	if("insertRule" in sheet) {
-		sheet.insertRule(selector + "{" + rules + "}", index);
+	//if("insertRule" in sheet) {
+  if (sheet.insertRule) {
+    var tmpVal = selector + "{" + rules + "}";
+		sheet.insertRule(tmpVal, index);
 	}
-	else if("addRule" in sheet) {
+	//else if("addRule" in sheet) {
+  else if (sheet.addRule) {
 		sheet.addRule(selector, rules, index);
 	}
 }
