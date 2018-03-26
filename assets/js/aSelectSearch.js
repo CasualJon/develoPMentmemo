@@ -15,7 +15,6 @@ const catWindow = document.getElementById('categoryExpand');
 var input = "";
 const searchBaseA = "<form id=\"srchForm\" method=\"POST\" onsubmit=\"return false\"><input id=\"srchBox\" type=\"text\" value=\"";
 const searchBaseB = "\" placeholder=\"Search term...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch()\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br /></form>";
-var sNewHeight = 60;
 
 //Columns checked after identifying elements
 checkCols();
@@ -276,7 +275,7 @@ function runSearch() {
   if (results.length % tableCols != 0)
     tableRows++;
 
-  sNewHeight = 39 * tableRows + 60;
+  var sNewHeight = 49 * tableRows + 60;
   // console.log("sNewHeight = " + sNewHeight);
 
   searchData += "<table>";
