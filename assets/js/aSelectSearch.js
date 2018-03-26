@@ -13,8 +13,9 @@ const cToggle = document.getElementById('categoryToggle');
 const srchWindow = document.getElementById('searchExpand');
 const catWindow = document.getElementById('categoryExpand');
 var input = "";
-const searchBaseA = "<form id=\"srchForm\" method=\"POST\"><input id=\"srchBox\" type=\"text\" value=\"";
+const searchBaseA = "<form id=\"srchForm\" method=\"POST\" onsubmit=\"return false\"><input id=\"srchBox\" type=\"text\" value=\"";
 const searchBaseB = "\" placeholder=\"Search term...\"><button id=\"srchBtn\" class=\"small\" onclick=\"runSearch()\"><img src=\"./assets/img/magnifyingglass_256x256.png\" width=\"32\"></button><br /></form>";
+var sNewHeight = 60;
 
 //Columns checked after identifying elements
 checkCols();
@@ -54,6 +55,19 @@ buildCatTables();
 populateScreenData();
 searchSubPage.innerHTML = searchData;
 catSubPage.innerHTML = catData;
+
+//Safari keeps reloading the page making the search unusable
+
+//if (navigator.userAgent.indexOf("Safari") != -1)
+  // searchSubPage.style.display = "none";
+  // searchSubPage.style.visibility = "hidden";
+  // document.getElementById('sLab').style.display = "none";
+  // document.getElementById('sLab').style.visibility = "hidden";
+  // sToggle.style.display = "none";
+  // sToggle.style.visibility = "hidden";
+  // srchWindow.style.display = "none";
+  // srchWindow.style.visibility = "hidden";
+
 
 function buildCatTables() {
   for (var i = 0; i < dmIndx.length; i++) {
@@ -179,13 +193,13 @@ function populateCatTable(arr) {
 function runSearch() {
   input = document.getElementById('srchBox').value;
   var term = input;
-  //console.log("Search term: " + term);
+  // console.log("Search term: " + term);
 
   //Reset page info to replace tables from prior searches (not add to)
   searchData = searchBaseA + term + searchBaseB;
 
   if (term == null || term == undefined || term == "") {
-    //console.log("No search term given, quitting.");
+    // console.log("No search term given, quitting.");
     return;
   }
 
@@ -262,7 +276,8 @@ function runSearch() {
   if (results.length % tableCols != 0)
     tableRows++;
 
-  var sNewHeight = 39 * tableRows + 60;
+  sNewHeight = 39 * tableRows + 60;
+  // console.log("sNewHeight = " + sNewHeight);
 
   searchData += "<table>";
   for (var i = 0; i < tableRows; i++) {
@@ -285,7 +300,7 @@ function runSearch() {
 
 
 function setMemo(id) {
-  //console.log("Selected memo: " + id + " - " + dmIndx[id].title);
+  console.log("Selected memo: " + id + " - " + dmIndx[id].title);
   var selectedMemo = dmIndx[id].path;
   var script = document.createElement('script');
     script.src = selectedMemo;
@@ -307,8 +322,11 @@ function addCSSRule(sheet, selector, rules) {
   var index = 0;
   var rulesList = sheet.cssRules;
 
+  if (!rulesList)
+    rulesList = sheet.rules;
+
   //Goddammit Internet Explorer & Safari
-  if ((navigator.userAgent.indexOf("MSIE") != -1) || (!!document.documentMode == true ) || navigator.userAgent.indexOf("Safari") != -1) {
+  if ((navigator.userAgent.indexOf("MSIE") != -1) || (!!document.documentMode == true )) {
     selector = ":checked#searchToggle ~ #searchExpand";
   }
 
