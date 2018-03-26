@@ -13,7 +13,7 @@ memoString + "As team members and coworkers, I want you to feel welcomed when yo
 memoString += "<p>Be social, be reliable, be active.<br/>";
 memoString += "Fairly critique when it's needed (knowledge is how we improve, and wanting to help others improve shows you care). Recognize and congratulate each other for contributions and successes.</p>";
 
-memoString += "<p>High performing teams are measured by effectiveness, and teams with high levels of trust are more effective. It turns out that positive and prosocial behavior boosts team trust.<br />:";
+memoString += "<p>High performing teams are measured by effectiveness, and teams with high levels of trust are more effective. It turns out that positive and prosocial behavior boosts team trust.<br />";
 memoString += "If you want to be effective, steward teamship.</p>";
 
 memoString += "<p>For more on how:<br />";
