@@ -55,19 +55,6 @@ populateScreenData();
 searchSubPage.innerHTML = searchData;
 catSubPage.innerHTML = catData;
 
-//Safari keeps reloading the page making the search unusable
-
-//if (navigator.userAgent.indexOf("Safari") != -1)
-  // searchSubPage.style.display = "none";
-  // searchSubPage.style.visibility = "hidden";
-  // document.getElementById('sLab').style.display = "none";
-  // document.getElementById('sLab').style.visibility = "hidden";
-  // sToggle.style.display = "none";
-  // sToggle.style.visibility = "hidden";
-  // srchWindow.style.display = "none";
-  // srchWindow.style.visibility = "hidden";
-
-
 function buildCatTables() {
   for (var i = 0; i < dmIndx.length; i++) {
     //Debug code to dump array info to console
@@ -276,8 +263,8 @@ function runSearch() {
     tableRows++;
 
   var sNewHeight = 49 * tableRows + 60;
-  console.log("#rows = " + tableRows);
-  console.log("sNewHeight = " + sNewHeight);
+  // console.log("#rows = " + tableRows);
+  // console.log("sNewHeight = " + sNewHeight);
 
   searchData += "<table>";
   for (var i = 0; i < tableRows; i++) {
