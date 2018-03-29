@@ -20,7 +20,7 @@ memoString += "<i>Example: The awards ceremony (successor) cannot start until th
 memoString += "This is the most common type of activity sequencing, and illustrated above.</li><br />";
 
 memoString += "<li><b>Finish-to-finish (FF)</b>: A logical relationship in which a successor activity cannot finish until a predecessor activity has finished.<br />";
-memoString += "<i>Example: Writing a document (successor) cannot finish before editing the document (predecessor) can finish.</i></li><br />";
+memoString += "<i>Example: Editing a document (successor) cannot finish before writing the document (predecessor) has finished.</i></li><br />";
 
 memoString += "<li><b>Start-to-start (SS)</b>: A logical relationship in which a successor activity cannot start until a predecessor activity has started.<br />";
 memoString += "<i>Example: Level concrete (successor) cannot begin until pour foundation (predecessor) begins.</i></li><br />";

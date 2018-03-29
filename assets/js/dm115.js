@@ -41,7 +41,7 @@ memoString += "Learn the domain your project exists in... If you're running a pr
 memoString += "<li><b>Use independent and fair consensus-building skills when conflict arises.</b><br />";
 memoString += "Few embrace conflict, fewer still seek it out. But running from it won't fix the problem, and favoritism will jeopardize your credibility and the team's efficacy.</li><br />";
 
-memoString += "<li><b>8)	Know the organization's strategic goals and see how their projects are of value within that strategy.</b><br />";
+memoString += "<li><b>Know the organization's strategic goals and see how their projects are of value within that strategy.</b><br />";
 memoString += "Projects are undertaken to deliver a product, service, or result; but it's the benefit provided through that deliverable which is the ultimate goal. Understanding long-term strategic goals allows you to shape the project's output to achieve maximum benefit in support of the larger strategy picture.</li></ol>";
 
 
