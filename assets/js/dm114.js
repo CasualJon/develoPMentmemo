@@ -7,7 +7,7 @@ var memoString = "";
 memoString += "<p><span id=\"preamble\">\"No individual is a success who hurts the team and no individual is a failure who helps it.\"</span><br />";
 memoString += "<small><span class=\"article-info\">Steve McConnell</span></small></p>";
 
-memoString += "<p>Having recently recounted (recycled?) a number of the \"NASA's A Project Manger's 100 Lessons Learned,\" the genesis of the deveoPMent memo, it reminded me of a corollary cannon similarly from NASA...</p>";
+memoString += "<p>Having recently recounted (recycled?) a number of NASA's \"A Project Manger's 100 Lessons Learned,\" the genesis of the deveoPMent memo, it reminded me of a corollary cannon similarly from NASA...</p>";
 
 memoString += "<p>The NASA SEL (Software Engineering Laboratory) <a href=\"https://books.google.com/books?id=Hkt3BQAAQBAJ&pg=PA254&lpg=PA254&dq=steve+mcconnell+nasa+sel+do%27s+don%27ts+project+success&source=bl&ots=6ApqRhH_fj&sig=dH3IYFtktlXwysATaJKbadYOSSo&hl=en&sa=X&ved=0ahUKEwifzt7A4ofaAhUCHGMKHf2_DPgQ6AEILDAB#v=onepage&q=steve%20mcconnell%20nasa%20sel%20do's%20don'ts%20project%20success&f=false\" target=\"_blank\">Dos and Don’ts for Software Success</a>.<br />";
 memoString += "While these Dos and Don'ts target software development, projects – as a structuring of work – share a common foundation regardless of product, service, or result they produce. And, if their traits are shared, so too are some of their key requirements</p>";
