@@ -8,7 +8,7 @@ memoString += "<p><span id=\"preamble\">Treating people how you want to be treat
 
 memoString += "<p><i></i><span id=\"vocab\">45</span>:<i> You cannot be ignorant of the language of the area you manage or with that of areas with which you interface. Education is a must for the modern manager. There are simple courses available to learn computerese, communicationese, and all the rest of the modern ese's of the world. You can't manage if you don't understand what is being said or written.</i></p>";
 
-memoString += "<p>Imagine the tedious and frustrating world where there is no shared lexicon between the project team and operational stakeholders. Instead of saying Physician Order, the closest you have is to say \"that thing that used to be on paper that that one lady who went to school for a long time writes in order to make the government happy when the sick person needs feel-better pills.\".</p>";
+memoString += "<p>Imagine the tedious and frustrating world where there is no shared lexicon between the project team and operational stakeholders. Instead of saying Physician Order, the closest you have is to say \"that thing that used to be on paper that that one lady who went to school for a long time writes in order to make the government happy when the sick person needs feel-better pills.\"</p>";
 
 memoString += "<p>Without a shared vocabulary to advance clarity and understanding, communications would be inefficient and insufficient to foster trust.</p>";
 

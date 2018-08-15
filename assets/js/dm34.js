@@ -20,7 +20,7 @@ memoString += "<p><i><u>I have a problem with X. What do you think I should do?<
 memoString += "Consistently offloading critical thinking to someone you report to doesn't build the favorable impression of you being a competent professional. And, offloading critical thinking to a team can create swirl and lead to inaction through the diffusion of responsibility.</p>";
 
 memoString += "<p><i><u>I have a problem with X. My current plan is to do Y and Z. What feedback do you have about this plan?</u></i><br />";
-memoString += "To drive change, think the issue through in advance and present a recommendation. It's the 21st centruy, everyone is always busy. How do you react when others merely dump a problem into your lap and expect answers? Besides, you're more likely to get your way if yo're the one constructing a well-thought plan.</p>";
+memoString += "To drive change, think the issue through in advance and present a recommendation. It's the 21st century, everyone is always busy. How do you react when others merely dump a problem into your lap and expect answers? Besides, you're more likely to get your way if yo're the one constructing a well-thought plan.</p>";
 
 memoString += "<p>Address problems with the intent of driving change by detailing the specific actions necessary to achieve the goal instead of passing critical thinking up the chain, or worse to someone who should be relying on your expertise.</p>";
 

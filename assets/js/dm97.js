@@ -12,7 +12,7 @@ memoString += "<p>TL;DR - make lists or be a loser.</p>";
 
 memoString += "<p>Computers have shot-term memory, long-term memory, a bus, a processing unit, a power supply... Essentially, we have the same things, just in different forms. So, your brain is like a computer.</p>";
 
-memoString += "<p>Working memory (in your laptop, it's RAM) as noted above has a finite capacity of information it can temporarily store and manage. One test to judge how much <b>Working Memory Capacity</b> a person has is <i>memory span – then number of words or numbers that a person can hold onto and recall in order</i>. <a href=\"http://www.human-memory.net/types_short.html\" target=\"_blank\">The average memory span for normal adults is around 7 items.</a>";
+memoString += "<p>Working memory (in your laptop, it's RAM) as noted above has a finite capacity of information it can temporarily store and manage. One test to judge how much <b>Working Memory Capacity</b> a person has is <i>memory span: the count of words or numbers that a person can hold onto and recall in order</i>. <a href=\"http://www.human-memory.net/types_short.html\" target=\"_blank\">The average memory span for normal adults is around 7 items.</a>";
 
 memoString += "<p><b>Working Memory Load</b> (also known as cognitive load) refers to the total amount of mental effort being used in the working memory.</p>";
 
