@@ -33,7 +33,7 @@ memoString += "<i>125 issues/20 issues per day = 6.25 average days in-system</i>
 memoString += "<p>Wait. Did you see that?<br />";
 memoString += "Adding one analyst knocked off ~4 days of the average time in the pipeline. Shouldn’t two analysts knock off 8 days?<br />";
 memoString += "Nope. That’s not how math works... You have diminishing marginal returns for each additional analyst added.<br ?>";
-memoString += "And, this doesn’t even account for the fact that it would likely time to get a recently added analyst up to speed, or that the new analyst(s) might process fewer than the 5 issues per day average if those issues are not within their area of expertise.</p>";
+memoString += "And, this doesn’t even account for the fact that it would likely take time to get a recently added analyst up to speed, or that the new analyst(s) might process fewer than the 5 issues per day average if those issues are not within their area of expertise.</p>";
 
 memoString += "<p>This little guy applies to any system where you have queued input and a capacity limit in throughput - - just like when you take the beltline at 4:30am to catch the 6am flight. With no one else out there, you can zip along at the speed limit and arrive on time, no problem. But, try taking that same beltline at 8:30am for your 10am flight and you’ll need rebooking.</p>";
 
